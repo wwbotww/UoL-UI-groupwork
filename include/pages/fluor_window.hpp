@@ -1,21 +1,23 @@
 #ifndef FLUOR_WINDOW_HPP
 #define FLUOR_WINDOW_HPP
 
-#include <QMainWindow>
-#include <QLabel>
+#include <QWidget>
 #include <QVBoxLayout>
-#include "fluor_stats.hpp"
+#include <QLabel>
+#include "dataset.hpp"
 
-class FluorWindow : public QMainWindow {
-    Q_OBJECT
+class FluorWindow : public QWidget {
+Q_OBJECT
 
 public:
-    explicit FluorWindow(const FluorStats& stats, QWidget* parent = nullptr);
-    ~FluorWindow() override;  // Declare destructor
+    explicit FluorWindow(QWidget* parent = nullptr);
+    ~FluorWindow();
 
 private:
-    QLabel* statsLabel;  // Label to display basic stats
-    QVBoxLayout* layout; // Layout for the window
+    QLabel* statsLabel;
+    QVBoxLayout* layout;
+
+    void loadFluorData();
 };
 
 #endif // FLUOR_WINDOW_HPP

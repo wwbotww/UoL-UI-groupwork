@@ -1,12 +1,12 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'fluor_window.hpp'
+** Meta object code from reading C++ file 'page3_window.hpp'
 **
 ** Created by: The Qt Meta Object Compiler version 68 (Qt 6.7.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../include/pages/fluor_window.hpp"
+#include "../../../include/pages/page3_window.hpp"
 #include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
 
@@ -17,7 +17,7 @@
 
 #include <QtCore/qxptype_traits.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'fluor_window.hpp' doesn't include <QObject>."
+#error "The header file 'page3_window.hpp' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
 #error "This file was generated using the moc from 6.7.0. It"
 #error "cannot be used with the include files from this version of Qt."
@@ -34,16 +34,16 @@ QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
-struct qt_meta_stringdata_CLASSFluorWindowENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSFluorWindowENDCLASS = QtMocHelpers::stringData(
-    "FluorWindow"
+struct qt_meta_stringdata_CLASSPage3WindowENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSPage3WindowENDCLASS = QtMocHelpers::stringData(
+    "Page3Window"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
 #endif // !QT_MOC_HAS_STRINGDATA
 } // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_CLASSFluorWindowENDCLASS[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSPage3WindowENDCLASS[] = {
 
  // content:
       12,       // revision
@@ -59,20 +59,20 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSFluorWindowENDCLASS[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject FluorWindow::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject Page3Window::staticMetaObject = { {
     QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
-    qt_meta_stringdata_CLASSFluorWindowENDCLASS.offsetsAndSizes,
-    qt_meta_data_CLASSFluorWindowENDCLASS,
+    qt_meta_stringdata_CLASSPage3WindowENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSPage3WindowENDCLASS,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSFluorWindowENDCLASS_t,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSPage3WindowENDCLASS_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<FluorWindow, std::true_type>
+        QtPrivate::TypeAndForceComplete<Page3Window, std::true_type>
     >,
     nullptr
 } };
 
-void FluorWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void Page3Window::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     (void)_o;
     (void)_id;
@@ -80,20 +80,20 @@ void FluorWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     (void)_a;
 }
 
-const QMetaObject *FluorWindow::metaObject() const
+const QMetaObject *Page3Window::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *FluorWindow::qt_metacast(const char *_clname)
+void *Page3Window::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_CLASSFluorWindowENDCLASS.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSPage3WindowENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
 
-int FluorWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int Page3Window::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
     return _id;
