@@ -129,6 +129,19 @@ water_quality_tool/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/build
 .PHONY : water_quality_tool/fast
 
+#=============================================================================
+# Target rules for targets named water_quality_tool_autogen
+
+# Build rule for target.
+water_quality_tool_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 water_quality_tool_autogen
+.PHONY : water_quality_tool_autogen
+
+# fast build rule for target.
+water_quality_tool_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool_autogen.dir/build.make CMakeFiles/water_quality_tool_autogen.dir/build
+.PHONY : water_quality_tool_autogen/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -177,6 +190,54 @@ src/dataset.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/dataset.cpp.s
 .PHONY : src/dataset.cpp.s
 
+src/pages/fluor_stats.o: src/pages/fluor_stats.cpp.o
+.PHONY : src/pages/fluor_stats.o
+
+# target to build an object file
+src/pages/fluor_stats.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.o
+.PHONY : src/pages/fluor_stats.cpp.o
+
+src/pages/fluor_stats.i: src/pages/fluor_stats.cpp.i
+.PHONY : src/pages/fluor_stats.i
+
+# target to preprocess a source file
+src/pages/fluor_stats.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.i
+.PHONY : src/pages/fluor_stats.cpp.i
+
+src/pages/fluor_stats.s: src/pages/fluor_stats.cpp.s
+.PHONY : src/pages/fluor_stats.s
+
+# target to generate assembly for a file
+src/pages/fluor_stats.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.s
+.PHONY : src/pages/fluor_stats.cpp.s
+
+src/pages/fluor_window.o: src/pages/fluor_window.cpp.o
+.PHONY : src/pages/fluor_window.o
+
+# target to build an object file
+src/pages/fluor_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.o
+.PHONY : src/pages/fluor_window.cpp.o
+
+src/pages/fluor_window.i: src/pages/fluor_window.cpp.i
+.PHONY : src/pages/fluor_window.i
+
+# target to preprocess a source file
+src/pages/fluor_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.i
+.PHONY : src/pages/fluor_window.cpp.i
+
+src/pages/fluor_window.s: src/pages/fluor_window.cpp.s
+.PHONY : src/pages/fluor_window.s
+
+# target to generate assembly for a file
+src/pages/fluor_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.s
+.PHONY : src/pages/fluor_window.cpp.s
+
 src/water_quality.o: src/water_quality.cpp.o
 .PHONY : src/water_quality.o
 
@@ -201,6 +262,30 @@ src/water_quality.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/water_quality.cpp.s
 .PHONY : src/water_quality.cpp.s
 
+water_quality_tool_autogen/mocs_compilation.o: water_quality_tool_autogen/mocs_compilation.cpp.o
+.PHONY : water_quality_tool_autogen/mocs_compilation.o
+
+# target to build an object file
+water_quality_tool_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cpp.o
+.PHONY : water_quality_tool_autogen/mocs_compilation.cpp.o
+
+water_quality_tool_autogen/mocs_compilation.i: water_quality_tool_autogen/mocs_compilation.cpp.i
+.PHONY : water_quality_tool_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+water_quality_tool_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cpp.i
+.PHONY : water_quality_tool_autogen/mocs_compilation.cpp.i
+
+water_quality_tool_autogen/mocs_compilation.s: water_quality_tool_autogen/mocs_compilation.cpp.s
+.PHONY : water_quality_tool_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+water_quality_tool_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cpp.s
+.PHONY : water_quality_tool_autogen/mocs_compilation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -209,6 +294,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... water_quality_tool_autogen"
 	@echo "... water_quality_tool"
 	@echo "... main.o"
 	@echo "... main.i"
@@ -216,9 +302,18 @@ help:
 	@echo "... src/dataset.o"
 	@echo "... src/dataset.i"
 	@echo "... src/dataset.s"
+	@echo "... src/pages/fluor_stats.o"
+	@echo "... src/pages/fluor_stats.i"
+	@echo "... src/pages/fluor_stats.s"
+	@echo "... src/pages/fluor_window.o"
+	@echo "... src/pages/fluor_window.i"
+	@echo "... src/pages/fluor_window.s"
 	@echo "... src/water_quality.o"
 	@echo "... src/water_quality.i"
 	@echo "... src/water_quality.s"
+	@echo "... water_quality_tool_autogen/mocs_compilation.o"
+	@echo "... water_quality_tool_autogen/mocs_compilation.i"
+	@echo "... water_quality_tool_autogen/mocs_compilation.s"
 .PHONY : help
 
 

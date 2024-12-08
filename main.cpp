@@ -1,29 +1,21 @@
-#include <iostream>
+#include <QApplication>
+#include "pages/fluor_window.hpp"
+#include "pages/fluor_stats.hpp"
 #include "dataset.hpp"
 
-int main() {
+int main(int argc, char* argv[]) {
+    QApplication app(argc, argv);
+
+    // Load data (replace with actual dataset loading logic)
     WaterQualityDataset dataset;
+    dataset.loadData("../data/water_quality.csv");
 
-    try {
-        // Loading CSV data
-        dataset.loadData("/Users/young/Desktop/UoL-UI-groupwork/data/water_quality.csv");
+    // Generate fluor statistics
+    FluorStats stats(dataset.filterByFluorInDefinition());
 
-        // Filtering data of determinand.definition which contains "fluor"
-        auto filteredRecords = dataset.filterByFluorInDefinition();
+    // Create and show main window
+    FluorWindow window(stats);
+    window.show();
 
-        // 输出筛选结果
-        std::cout << "Records containing 'fluor' in definition:\n";
-        for (const auto& record : filteredRecords) {
-            std::cout << record << "\n";  // Print outcome
-        }
-
-        if (filteredRecords.empty()) {
-            std::cout << "No records found containing 'fluor' in definition.\n";
-        }
-
-    } catch (const std::exception& e) {
-        std::cerr << "Error: " << e.what() << "\n";
-    }
-
-    return 0;
+    return app.exec();
 }

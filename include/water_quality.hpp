@@ -33,7 +33,7 @@ public:
     bool isCompliance() const { return isComplianceSample; }
     std::string getResultQualifier() const { return resultQualifier; }
     double getResult() const { return result; }
-    
+
 
 private:
     std::string id;
@@ -52,7 +52,7 @@ private:
     bool isComplianceSample;
     std::string resultQualifier;
     double result;
-    
+
 };
 
 std::ostream& operator<<(std::ostream&, const WaterQuality&);

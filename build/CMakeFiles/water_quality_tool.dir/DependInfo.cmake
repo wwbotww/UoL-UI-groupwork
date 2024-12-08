@@ -10,7 +10,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/young/Desktop/UoL-UI-groupwork/main.cpp" "CMakeFiles/water_quality_tool.dir/main.cpp.o" "gcc" "CMakeFiles/water_quality_tool.dir/main.cpp.o.d"
   "/Users/young/Desktop/UoL-UI-groupwork/src/dataset.cpp" "CMakeFiles/water_quality_tool.dir/src/dataset.cpp.o" "gcc" "CMakeFiles/water_quality_tool.dir/src/dataset.cpp.o.d"
+  "/Users/young/Desktop/UoL-UI-groupwork/src/pages/fluor_stats.cpp" "CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.o" "gcc" "CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.o.d"
+  "/Users/young/Desktop/UoL-UI-groupwork/src/pages/fluor_window.cpp" "CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.o" "gcc" "CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.o.d"
   "/Users/young/Desktop/UoL-UI-groupwork/src/water_quality.cpp" "CMakeFiles/water_quality_tool.dir/src/water_quality.cpp.o" "gcc" "CMakeFiles/water_quality_tool.dir/src/water_quality.cpp.o.d"
+  "/Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/mocs_compilation.cpp" "CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
