@@ -48,7 +48,7 @@ set(__QT_DEPLOY_QT_INSTALL_DATA "share/qt")
 set(__QT_DEPLOY_QT_INSTALL_LIBEXECS "share/qt/libexec")
 set(__QT_DEPLOY_QT_INSTALL_PLUGINS "share/qt/plugins")
 set(__QT_DEPLOY_QT_INSTALL_TRANSLATIONS "share/qt/translations")
-set(__QT_DEPLOY_TARGET_QT_PATHS_PATH "/opt/homebrew/bin/qtpaths")
+set(__QT_DEPLOY_TARGET_QT_PATHS_PATH "/opt/homebrew/bin/qtpaths6")
 set(__QT_DEPLOY_PLUGINS "")
 set(__QT_DEPLOY_MUST_ADJUST_PLUGINS_RPATH "")
 set(__QT_DEPLOY_USE_PATCHELF "")
@@ -59,7 +59,8 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "")
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
     "/Users/young/Desktop/UoL-UI-groupwork/build/.qt/QtDeployTargets.cmake"
-    "/opt/homebrew/Cellar/qt/6.7.0_1/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
+    "/opt/homebrew/Cellar/qt/6.7.3/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
+    "/opt/homebrew/Cellar/qt/6.7.3/lib/cmake/Qt6Qml/Qt6QmlDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)
     include("${__qt_deploy_support_file}")

@@ -1,7 +1,6 @@
-CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cpp.o: \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/mocs_compilation.cpp \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_fluor_window.cpp \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/fluor_window.hpp \
+CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.o: \
+  /Users/young/Desktop/UoL-UI-groupwork/src/pages/page2_window.cpp \
+  /Users/young/Desktop/UoL-UI-groupwork/include/pages/page2_window.hpp \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
@@ -1118,13 +1117,6 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtGui/qcursor.h \
   /opt/homebrew/include/QtGui/qbitmap.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QVBoxLayout \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h \
-  /opt/homebrew/include/QtWidgets/qlayout.h \
-  /opt/homebrew/include/QtWidgets/qlayoutitem.h \
-  /opt/homebrew/include/QtWidgets/qboxlayout.h \
-  /opt/homebrew/include/QtWidgets/qgridlayout.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
   /opt/homebrew/include/QtWidgets/qframe.h \
@@ -1133,131 +1125,9 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtGui/qtextdocument.h \
   /opt/homebrew/include/QtCore/qurl.h \
-  /opt/homebrew/lib/QtQuickWidgets.framework/Headers/QQuickWidget \
-  /opt/homebrew/lib/QtQuickWidgets.framework/Headers/qquickwidget.h \
-  /opt/homebrew/include/QtQuick/qquickwindow.h \
-  /opt/homebrew/include/QtQuick/qtquickglobal.h \
-  /opt/homebrew/include/QtQml/qtqmlglobal.h \
-  /opt/homebrew/include/QtQml/qtqml-config.h \
-  /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
-  /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
-  /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
-  /opt/homebrew/include/QtQml/qtqmlexports.h \
-  /opt/homebrew/include/QtQuick/qtquick-config.h \
-  /opt/homebrew/include/QtQuick/qtquickexports.h \
-  /opt/homebrew/include/QtQuick/qsgrendererinterface.h \
-  /opt/homebrew/include/QtQuick/qsgnode.h \
-  /opt/homebrew/include/QtQuick/qsggeometry.h \
-  /opt/homebrew/include/QtCore/QRectF \
-  /opt/homebrew/include/QtGui/QMatrix4x4 \
-  /opt/homebrew/include/QtGui/qmatrix4x4.h \
-  /opt/homebrew/include/QtGui/qvector3d.h \
-  /opt/homebrew/include/QtGui/qvectornd.h \
-  /opt/homebrew/include/QtGui/qvector4d.h \
-  /opt/homebrew/include/QtGui/qquaternion.h \
-  /opt/homebrew/include/QtGui/qgenericmatrix.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/float.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/float.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/float.h \
-  /opt/homebrew/include/QtGui/qwindow.h \
-  /opt/homebrew/include/QtCore/QObject \
-  /opt/homebrew/include/QtCore/QEvent \
-  /opt/homebrew/include/QtCore/qcoreevent.h \
-  /opt/homebrew/include/QtCore/QMargins \
-  /opt/homebrew/include/QtCore/QRect \
-  /opt/homebrew/include/QtCore/qnativeinterface.h \
-  /opt/homebrew/include/QtGui/qsurface.h \
-  /opt/homebrew/include/QtGui/qsurfaceformat.h \
-  /opt/homebrew/include/QtGui/qevent.h \
-  /opt/homebrew/include/QtGui/qeventpoint.h \
-  /opt/homebrew/include/QtGui/qvector2d.h \
-  /opt/homebrew/include/QtGui/qpointingdevice.h \
-  /opt/homebrew/include/QtGui/qinputdevice.h \
-  /opt/homebrew/include/QtGui/qscreen.h \
-  /opt/homebrew/include/QtCore/QList /opt/homebrew/include/QtCore/QSize \
-  /opt/homebrew/include/QtCore/QSizeF \
-  /opt/homebrew/include/QtGui/QTransform \
-  /opt/homebrew/include/QtGui/qscreen_platform.h \
-  /opt/homebrew/include/QtGui/qguiapplication.h \
-  /opt/homebrew/include/QtCore/qcoreapplication.h \
-  /opt/homebrew/include/QtCore/qdeadlinetimer.h \
-  /opt/homebrew/include/QtCore/qelapsedtimer.h \
-  /opt/homebrew/include/QtCore/qeventloop.h \
-  /opt/homebrew/include/QtCore/qcoreapplication_platform.h \
-  /opt/homebrew/include/QtGui/qinputmethod.h \
-  /opt/homebrew/include/QtCore/qlocale.h \
-  /opt/homebrew/include/QtGui/qguiapplication_platform.h \
-  /opt/homebrew/include/QtQml/qqml.h \
-  /opt/homebrew/include/QtQml/qqmlprivate.h \
-  /opt/homebrew/include/QtQml/qjsprimitivevalue.h \
-  /opt/homebrew/include/QtQml/qjsnumbercoercion.h \
-  /opt/homebrew/include/QtQml/qjsvalue.h \
-  /opt/homebrew/include/QtQml/qqmllist.h \
-  /opt/homebrew/include/QtQml/qqmlparserstatus.h \
-  /opt/homebrew/include/QtQml/qqmlpropertyvaluesource.h \
-  /opt/homebrew/include/QtCore/qdatetime.h \
-  /opt/homebrew/include/QtCore/qcalendar.h \
-  /opt/homebrew/include/QtCore/qmetaobject.h \
-  /opt/homebrew/include/QtCore/qpointer.h \
-  /opt/homebrew/include/QtCore/qversionnumber.h \
-  /opt/homebrew/include/QtCore/qtyperevision.h \
-  /opt/homebrew/include/QtQml/qqmlregistration.h \
-  /opt/homebrew/include/QtQmlIntegration/qqmlintegration.h \
-  /opt/homebrew/include/QtQml/qqmldebug.h \
-  /opt/homebrew/include/QtQml/qqmlinfo.h \
-  /opt/homebrew/include/QtQml/qqmlerror.h \
-  /opt/homebrew/include/QtQuickWidgets/qtquickwidgetsglobal.h \
-  /opt/homebrew/include/QtQuickWidgets/qtquickwidgetsexports.h \
-  /opt/homebrew/lib/QtQml.framework/Headers/QQmlContext \
-  /opt/homebrew/lib/QtQml.framework/Headers/qqmlcontext.h \
-  /Users/young/Desktop/UoL-UI-groupwork/include/dataset.hpp \
-  /Users/young/Desktop/UoL-UI-groupwork/include/water_quality.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/istream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/ostream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/bitset \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/format \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/container_adaptor.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/range_default_formatter.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/range_formatter.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/format_context.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/format_arg_store.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/format_args.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__ranges/ref_view.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/queue \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/deque \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stack \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/format_functions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/formatter_char.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/write_escaped.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/escaped_output_table.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/formatter_floating_point.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__charconv/chars_format.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__charconv/to_chars_floating_point.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/formatter_integer.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/formatter_pointer.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/formatter_string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/print \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/unistd.h \
-  /opt/homebrew/include/QtGui/qtextcursor.h \
-  /opt/homebrew/include/QtGui/qtextformat.h \
-  /opt/homebrew/include/QtGui/qpen.h \
-  /opt/homebrew/include/QtGui/qtextoption.h \
-  /opt/homebrew/include/QtCore/qtmochelpers.h \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_home_window.cpp \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/home_window.hpp \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
-  /opt/homebrew/include/QtWidgets/qtabwidget.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /opt/homebrew/include/QtWidgets/qabstractbutton.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QStackedWidget \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qstackedwidget.h \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/page1_window.hpp \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/page2_window.hpp \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/page3_window.hpp \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_page1_window.cpp \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_page2_window.cpp \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_page3_window.cpp
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayoutitem.h \
+  /opt/homebrew/include/QtWidgets/qboxlayout.h \
+  /opt/homebrew/include/QtWidgets/qgridlayout.h

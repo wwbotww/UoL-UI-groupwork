@@ -238,6 +238,102 @@ src/pages/fluor_window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.s
 .PHONY : src/pages/fluor_window.cpp.s
 
+src/pages/home_window.o: src/pages/home_window.cpp.o
+.PHONY : src/pages/home_window.o
+
+# target to build an object file
+src/pages/home_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/home_window.cpp.o
+.PHONY : src/pages/home_window.cpp.o
+
+src/pages/home_window.i: src/pages/home_window.cpp.i
+.PHONY : src/pages/home_window.i
+
+# target to preprocess a source file
+src/pages/home_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/home_window.cpp.i
+.PHONY : src/pages/home_window.cpp.i
+
+src/pages/home_window.s: src/pages/home_window.cpp.s
+.PHONY : src/pages/home_window.s
+
+# target to generate assembly for a file
+src/pages/home_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/home_window.cpp.s
+.PHONY : src/pages/home_window.cpp.s
+
+src/pages/page1_window.o: src/pages/page1_window.cpp.o
+.PHONY : src/pages/page1_window.o
+
+# target to build an object file
+src/pages/page1_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.o
+.PHONY : src/pages/page1_window.cpp.o
+
+src/pages/page1_window.i: src/pages/page1_window.cpp.i
+.PHONY : src/pages/page1_window.i
+
+# target to preprocess a source file
+src/pages/page1_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.i
+.PHONY : src/pages/page1_window.cpp.i
+
+src/pages/page1_window.s: src/pages/page1_window.cpp.s
+.PHONY : src/pages/page1_window.s
+
+# target to generate assembly for a file
+src/pages/page1_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.s
+.PHONY : src/pages/page1_window.cpp.s
+
+src/pages/page2_window.o: src/pages/page2_window.cpp.o
+.PHONY : src/pages/page2_window.o
+
+# target to build an object file
+src/pages/page2_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.o
+.PHONY : src/pages/page2_window.cpp.o
+
+src/pages/page2_window.i: src/pages/page2_window.cpp.i
+.PHONY : src/pages/page2_window.i
+
+# target to preprocess a source file
+src/pages/page2_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.i
+.PHONY : src/pages/page2_window.cpp.i
+
+src/pages/page2_window.s: src/pages/page2_window.cpp.s
+.PHONY : src/pages/page2_window.s
+
+# target to generate assembly for a file
+src/pages/page2_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.s
+.PHONY : src/pages/page2_window.cpp.s
+
+src/pages/page3_window.o: src/pages/page3_window.cpp.o
+.PHONY : src/pages/page3_window.o
+
+# target to build an object file
+src/pages/page3_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/page3_window.cpp.o
+.PHONY : src/pages/page3_window.cpp.o
+
+src/pages/page3_window.i: src/pages/page3_window.cpp.i
+.PHONY : src/pages/page3_window.i
+
+# target to preprocess a source file
+src/pages/page3_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/page3_window.cpp.i
+.PHONY : src/pages/page3_window.cpp.i
+
+src/pages/page3_window.s: src/pages/page3_window.cpp.s
+.PHONY : src/pages/page3_window.s
+
+# target to generate assembly for a file
+src/pages/page3_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/page3_window.cpp.s
+.PHONY : src/pages/page3_window.cpp.s
+
 src/water_quality.o: src/water_quality.cpp.o
 .PHONY : src/water_quality.o
 
@@ -308,6 +404,18 @@ help:
 	@echo "... src/pages/fluor_window.o"
 	@echo "... src/pages/fluor_window.i"
 	@echo "... src/pages/fluor_window.s"
+	@echo "... src/pages/home_window.o"
+	@echo "... src/pages/home_window.i"
+	@echo "... src/pages/home_window.s"
+	@echo "... src/pages/page1_window.o"
+	@echo "... src/pages/page1_window.i"
+	@echo "... src/pages/page1_window.s"
+	@echo "... src/pages/page2_window.o"
+	@echo "... src/pages/page2_window.i"
+	@echo "... src/pages/page2_window.s"
+	@echo "... src/pages/page3_window.o"
+	@echo "... src/pages/page3_window.i"
+	@echo "... src/pages/page3_window.s"
 	@echo "... src/water_quality.o"
 	@echo "... src/water_quality.i"
 	@echo "... src/water_quality.s"
