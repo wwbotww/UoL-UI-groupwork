@@ -37,6 +37,12 @@ private:
     QChartView* chartView;
     QComboBox* filterComboBox;
     QPushButton* refreshButton;
+
+    WaterQualityDataset dataset;
+    void loadData();
+    void createTable(const std::map<std::string, double> &data);
+    void createChart(const std::map<std::string, double> &data);
+
 };
 
 #endif // PAGE1_WINDOW_HPP
