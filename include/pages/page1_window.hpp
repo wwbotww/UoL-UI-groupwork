@@ -36,7 +36,7 @@ private:
     QTableWidget* litterTable;
     QChartView* chartView;
     QComboBox* filterComboBox;
-    QPushButton* 
+    QPushButton* refreshButton;
 };
 
 #endif // PAGE1_WINDOW_HPP
