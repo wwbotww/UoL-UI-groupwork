@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include "water_quality.hpp"
+#include <map>
 
 class WaterQualityDataset {
 public:
@@ -13,10 +14,10 @@ public:
 
     const std::vector<WaterQuality>& getData() const { return data; }
 
-//    std::vector<WaterQuality> filterForLitter() const;
-//    std::map<std::string, double> summarizeLitterByLocation() const;
-//    std::map<std::string, bool> checkComplianceWithEUStandards() const;
-//    std::vector<WaterQuality> filterByLocationOrLitter(const std::string& location, const std::string& litterType) const;
+    std::vector<WaterQuality> filterForLitter() const;
+    std::map<std::string, double> summarizeLitterByLocation() const;
+    std::map<std::string, bool> checkComplianceWithEUStandards() const;
+    std::vector<WaterQuality> filterByLocationOrLitter(const std::string& location, const std::string& litterType) const;
 
 
 private:
