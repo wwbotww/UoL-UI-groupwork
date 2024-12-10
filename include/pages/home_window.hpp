@@ -7,8 +7,8 @@
 #include <QHBoxLayout>
 #include <QStackedWidget>
 #include <QWidget>
-#include "pages/overview_window.hpp" // 引入 OverviewWindow
-#include "pages/fluor_window.hpp"   // 引入 FluorWindow
+#include "pages/overview_window.hpp"
+#include "pages/fluor_window.hpp"
 
 class HomeWindow : public QMainWindow {
 Q_OBJECT
@@ -18,7 +18,7 @@ public:
     ~HomeWindow();
 
 private slots:
-    void showOverviewPage(); // 修改为显示 Overview 页面
+    void showOverviewPage();
     void showFluorWindow();
     void showPage1();
     void showPage2();
@@ -34,7 +34,7 @@ private:
     QPushButton* page2Button;
     QPushButton* page3Button;
 
-    OverviewWindow* overviewPage; // 修改为具体类型
+    OverviewWindow* overviewPage;
     QWidget* fluorPage;
     QWidget* page1;
     QWidget* page2;

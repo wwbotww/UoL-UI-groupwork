@@ -74,27 +74,27 @@ std::vector<std::pair<double, double>> FluorStats::convertBNGToLatLng(const std:
 }
 
 QString FluorStats::loadFluorDataAsJSArray(const std::string& filePath) {
-    // 加载数据集
+    // Load the dataset
     WaterQualityDataset dataset;
     dataset.loadData(filePath);
 
-    // 筛选含有 "fluor" 的记录
+    // Filter records that contain "fluor"
     auto filteredRecords = dataset.filterByFluorInDefinition();
 
-    // 提取 BNG 坐标 (easting, northing)
+    // Extract BNG coordinates (easting, northing)
     std::vector<std::pair<int, int>> bngCoords;
     for (const auto& record : filteredRecords) {
         bngCoords.emplace_back(record.getEasting(), record.getNorthing());
     }
 
-    // 转换为经纬度
+    // Convert BNG coordinates to latitude and longitude
     auto latLngCoords = FluorStats::convertBNGToLatLng(bngCoords);
 
-    // 转换为 JavaScript 格式的数组字符串
+    // Convert to a JavaScript-formatted array string
     QStringList locationData;
     for (const auto& coord : latLngCoords) {
         locationData << QString("{lat: %1, lng: %2}").arg(coord.first).arg(coord.second);
     }
 
-    return "[" + locationData.join(",") + "]"; // 返回 JavaScript 数据点数组
+    return "[" + locationData.join(",") + "]"; // Return JavaScript data points array
 }

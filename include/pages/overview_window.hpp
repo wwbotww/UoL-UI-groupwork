@@ -18,35 +18,35 @@ public:
     ~OverviewWindow() override = default;
 
 signals:
-    void showFluorPage(); // 点击 Fluor 模块的按钮信号
+    void showFluorPage();
     void showPage1();
     void showPage2();
     void showPage3();
 
 private slots:
-    void displayFluorDataOnMap(); // 在地图上显示 FluorPage 的数据点
+    void displayFluorDataOnMap(); // Display data points for FluorPage on the map
 
-    void displayPage1DataOnMap();
+    void displayPage1DataOnMap(); // Display data points for Page1 on the map
 
-    void displayPage2DataOnMap();
+    void displayPage2DataOnMap(); // Display data points for Page2 on the map
 
-    void displayPage3DataOnMap();
+    void displayPage3DataOnMap(); // Display data points for Page3 on the map
 
 private:
-    QWebEngineView* mapView; // 地图视图
+    QWebEngineView* mapView; // Map view
     QLabel* fluorDataLabel;
     QPushButton* fluorDataButton;
 
-    QString fluorDataPoints; // FluorPage 数据点的 JavaScript 数据
+    QString fluorDataPoints; // JavaScript data points for FluorPage
 
-    QLabel *page1DataLabel;     // 显示 Page1 数据条目的标签
-    QPushButton *page1DataButton; // 加载 Page1 数据的按钮
+    QLabel *page1DataLabel;     // Label to display data entries for Page1
+    QPushButton *page1DataButton; // Button to load data for Page1
 
-    QLabel *page2DataLabel;     // 显示 Page2 数据条目的标签
-    QPushButton *page2DataButton; // 加载 Page2 数据的按钮
+    QLabel *page2DataLabel;     // Label to display data entries for Page2
+    QPushButton *page2DataButton; // Button to load data for Page2
 
-    QLabel *page3DataLabel;     // 显示 Page3 数据条目的标签
-    QPushButton *page3DataButton; // 加载 Page3 数据的按钮
+    QLabel *page3DataLabel;     // Label to display data entries for Page3
+    QPushButton *page3DataButton; // Button to load data for Page3
 };
 
 #endif // OVERVIEW_WINDOW_HPP

@@ -6,26 +6,26 @@ OverviewWindow::OverviewWindow(QWidget* parent)
           mapView(new QWebEngineView(this)) {
     QVBoxLayout* mainLayout = new QVBoxLayout(this);
 
-    // 地图部分
+    // Map section
     mapView->setMinimumHeight(300);
-    QFile file(":/html/map.html"); // 加载 Google Maps 的 HTML
+    QFile file(":/html/map.html"); // Load Google Maps HTML
     if (!file.open(QIODevice::ReadOnly)) {
         qWarning() << "Failed to open map.html";
         return;
     }
 
     QString html = file.readAll();
-    html.replace("/*DATA_POINTS*/", "[]"); // 初始加载时为空数组
-    mapView->setHtml(html); // 在页面加载时加载 Google Maps
+    html.replace("/*DATA_POINTS*/", "[]"); // Empty array on initial load
+    mapView->setHtml(html); // Load Google Maps when the page is displayed
     file.close();
 
     mainLayout->addWidget(mapView);
 
-    // 下半部分布局
+    // Bottom layout section
     QWidget* bottomSection = new QWidget(this);
     QGridLayout* gridLayout = new QGridLayout(bottomSection);
 
-    // Fluor 模块
+    // Fluor module
     QWidget* fluorWidget = new QWidget(this);
     QVBoxLayout* fluorLayout = new QVBoxLayout(fluorWidget);
     fluorDataButton = new QPushButton("Show Fluor Data on Map", this);
@@ -33,7 +33,7 @@ OverviewWindow::OverviewWindow(QWidget* parent)
     connect(fluorDataButton, &QPushButton::clicked, this, &OverviewWindow::displayFluorDataOnMap);
     gridLayout->addWidget(fluorWidget, 0, 0);
 
-    // Page1 模块
+    // Page1 module
     QWidget* page1Widget = new QWidget(this);
     QVBoxLayout* page1Layout = new QVBoxLayout(page1Widget);
     QPushButton* page1Button = new QPushButton("Show Page1 Data", this);
@@ -41,7 +41,7 @@ OverviewWindow::OverviewWindow(QWidget* parent)
     connect(page1Button, &QPushButton::clicked, this, &OverviewWindow::displayPage1DataOnMap);
     gridLayout->addWidget(page1Widget, 0, 1);
 
-    // Page2 模块
+    // Page2 module
     QWidget* page2Widget = new QWidget(this);
     QVBoxLayout* page2Layout = new QVBoxLayout(page2Widget);
     QPushButton* page2Button = new QPushButton("Show Page2 Data", this);
@@ -49,7 +49,7 @@ OverviewWindow::OverviewWindow(QWidget* parent)
     connect(page2Button, &QPushButton::clicked, this, &OverviewWindow::displayPage2DataOnMap);
     gridLayout->addWidget(page2Widget, 1, 0);
 
-    // Page3 模块
+    // Page3 module
     QWidget* page3Widget = new QWidget(this);
     QVBoxLayout* page3Layout = new QVBoxLayout(page3Widget);
     QPushButton* page3Button = new QPushButton("Show Page3 Data", this);
@@ -68,16 +68,16 @@ void OverviewWindow::displayFluorDataOnMap() {
 }
 
 void OverviewWindow::displayPage1DataOnMap() {
-    // 这里使用Page1的数据加载逻辑（待补充数据处理逻辑）
+    // Load logic for Page1 data (data processing logic to be added)
     mapView->page()->runJavaScript("updateMarkers([])");
 }
 
 void OverviewWindow::displayPage2DataOnMap() {
-    // 这里使用Page2的数据加载逻辑（待补充数据处理逻辑）
+    // Load logic for Page2 data (data processing logic to be added)
     mapView->page()->runJavaScript("updateMarkers([])");
 }
 
 void OverviewWindow::displayPage3DataOnMap() {
-    // 这里使用Page3的数据加载逻辑（待补充数据处理逻辑）
+    // Load logic for Page3 data (data processing logic to be added)
     mapView->page()->runJavaScript("updateMarkers([])");
 }

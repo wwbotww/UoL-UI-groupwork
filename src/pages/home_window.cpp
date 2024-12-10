@@ -5,16 +5,16 @@ HomeWindow::HomeWindow(QWidget* parent)
         : QMainWindow(parent),
           centralWidget(new QWidget(this)),
           stackedWidget(new QStackedWidget(this)) {
-    // 创建导航按钮
+    // Create navigation buttons
     homeButton = new QPushButton("Overview");
     fluorButton = new QPushButton("Fluor Data");
     page1Button = new QPushButton("Page 1");
     page2Button = new QPushButton("Page 2");
     page3Button = new QPushButton("Page 3");
 
-    // 导航栏布局
+    // Navigation bar layout
     navLayout = new QVBoxLayout();
-    navLayout->addWidget(homeButton); // 概览按钮
+    navLayout->addWidget(homeButton); // Overview button
     navLayout->addWidget(fluorButton);
     navLayout->addWidget(page1Button);
     navLayout->addWidget(page2Button);
@@ -26,7 +26,7 @@ HomeWindow::HomeWindow(QWidget* parent)
     navBar->setFixedWidth(120);
     navBar->setStyleSheet("background-color: #2c3e50;");
 
-    // 页面定义
+    // Page definitions
     overviewPage = new OverviewWindow(this);
     connect(overviewPage, &OverviewWindow::showFluorPage, this, &HomeWindow::showFluorWindow);
     connect(overviewPage, &OverviewWindow::showPage1, this, &HomeWindow::showPage1);
@@ -34,21 +34,21 @@ HomeWindow::HomeWindow(QWidget* parent)
     connect(overviewPage, &OverviewWindow::showPage3, this, &HomeWindow::showPage3);
 
     fluorPage = new FluorWindow(this);
-    page1 = new QWidget(this); // 如果有自定义窗口，可以替换为 Page1Window
-    page2 = new QWidget(this); // 如果有自定义窗口，可以替换为 Page2Window
-    page3 = new QWidget(this); // 如果有自定义窗口，可以替换为 Page3Window
+    page1 = new QWidget(this); // Replace with Page1Window if there is a custom window
+    page2 = new QWidget(this); // Replace with Page2Window if there is a custom window
+    page3 = new QWidget(this); // Replace with Page3Window if there is a custom window
 
-    // 将页面添加到 QStackedWidget
-    stackedWidget->addWidget(overviewPage); // 概览页面
-    stackedWidget->addWidget(fluorPage);    // Fluor 页面
+    // Add pages to QStackedWidget
+    stackedWidget->addWidget(overviewPage); // Overview page
+    stackedWidget->addWidget(fluorPage);    // Fluor page
     stackedWidget->addWidget(page1);
     stackedWidget->addWidget(page2);
     stackedWidget->addWidget(page3);
 
-    // 默认显示概览页面
+    // Set default page to Overview
     stackedWidget->setCurrentWidget(overviewPage);
 
-    // 布局管理
+    // Layout management
     mainLayout = new QHBoxLayout();
     mainLayout->addWidget(navBar);
     mainLayout->addWidget(stackedWidget);
@@ -56,7 +56,7 @@ HomeWindow::HomeWindow(QWidget* parent)
     centralWidget->setLayout(mainLayout);
     setCentralWidget(centralWidget);
 
-    // 连接导航按钮的信号与插槽
+    // Connect navigation button signals to slots
     connect(homeButton, &QPushButton::clicked, this, &HomeWindow::showOverviewPage);
     connect(fluorButton, &QPushButton::clicked, this, &HomeWindow::showFluorWindow);
     connect(page1Button, &QPushButton::clicked, this, &HomeWindow::showPage1);
