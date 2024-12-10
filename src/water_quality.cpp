@@ -16,7 +16,7 @@ WaterQuality::WaterQuality(
         sampleTime(sampleTime), purpose(purpose), determinand(determinand),
         definition(definition), notation(notation), unit(unit),
         materialType(materialType), isComplianceSample(isComplianceSample),
-        resultQualifier(resultQualifier), result(result) 
+        resultQualifier(resultQualifier), result(result)
 {
     ostringstream error;
 
