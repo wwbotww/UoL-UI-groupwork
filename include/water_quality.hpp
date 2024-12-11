@@ -1,4 +1,5 @@
-#pragma once
+#ifndef WATER_QUALITY_HPP
+#define WATER_QUALITY_HPP
 
 #include <string>
 #include <iostream>
@@ -6,14 +7,11 @@
 class WaterQuality {
 public:
     WaterQuality(
-            const std::string& id, const std::string& samplingPoint,
-            const std::string& pointNotation, const std::string& pointLabel,
-            int easting, int northing, const std::string& sampleTime,
-            const std::string& purpose, const std::string& determinand,
-            const std::string& definition, const std::string& notation,
-            const std::string& unit, const std::string& materialType,
+            const std::string& id, const std::string& samplingPoint, const std::string& pointNotation,
+            const std::string& pointLabel, int easting, int northing, const std::string& sampleTime,
+            const std::string& purpose, const std::string& determinand, const std::string& definition,
+            const std::string& notation, const std::string& unit, const std::string& materialType,
             bool isComplianceSample, const std::string& resultQualifier, double result
-
     );
 
     // Getter methods
@@ -34,6 +32,8 @@ public:
     std::string getResultQualifier() const { return resultQualifier; }
     double getResult() const { return result; }
 
+    // Overload operator for printing
+    friend std::ostream& operator<<(std::ostream& out, const WaterQuality& record);
 
 private:
     std::string id;
@@ -52,7 +52,6 @@ private:
     bool isComplianceSample;
     std::string resultQualifier;
     double result;
-
 };
 
-std::ostream& operator<<(std::ostream&, const WaterQuality&);
+#endif // WATER_QUALITY_HPP

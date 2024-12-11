@@ -3,21 +3,34 @@
 
 #include <QWidget>
 #include <QVBoxLayout>
-#include <QWebEngineView>
+#include <QChartView>
+#include <QComboBox>
+#include <QScatterSeries>
+#include <QDateTimeAxis>
+#include <QValueAxis>
+#include "dataset.hpp"
 
-class FluorWindow : public QWidget
-{
+class FluorWindow : public QWidget {
 Q_OBJECT
 
 public:
     explicit FluorWindow(QWidget* parent = nullptr);
     ~FluorWindow();
 
-private:
-    QVBoxLayout* layout;         // 主布局
-    QWebEngineView* webView;     // 地图的 Web 视图
+private slots:
+    void onStationSelected(const QString& selectedStation); // 监测站选择事件
 
-    void loadFluorData();        // 加载并显示 Fluor 数据的函数
+private:
+    void loadDataAndDrawChart(); // 加载数据并绘制图表
+    void populateStationSelector(); // 填充站点选择器
+    void drawChartForStation(const QString& selectedStation); // 为指定站点绘制图表
+
+    QVBoxLayout* layout;
+    QChartView* chartView;
+    QChart* chart;
+    QComboBox* stationSelector; // 监测站选择器
+    WaterQualityDataset dataset;
+    std::vector<WaterQuality> fluorData; // 筛选出的 Fluor 数据
 };
 
 #endif // FLUOR_WINDOW_HPP

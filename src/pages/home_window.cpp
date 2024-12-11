@@ -1,5 +1,6 @@
 #include "pages/home_window.hpp"
 #include "pages/overview_window.hpp"
+#include "pages/page2_window.hpp"
 
 HomeWindow::HomeWindow(QWidget* parent)
         : QMainWindow(parent),
@@ -9,7 +10,7 @@ HomeWindow::HomeWindow(QWidget* parent)
     homeButton = new QPushButton("Overview");
     fluorButton = new QPushButton("Fluor Data");
     page1Button = new QPushButton("Page 1");
-    page2Button = new QPushButton("Page 2");
+    page2Button = new QPushButton("POP Data");
     page3Button = new QPushButton("Page 3");
 
     // Navigation bar layout
@@ -35,7 +36,7 @@ HomeWindow::HomeWindow(QWidget* parent)
 
     fluorPage = new FluorWindow(this);
     page1 = new QWidget(this); // Replace with Page1Window if there is a custom window
-    page2 = new QWidget(this); // Replace with Page2Window if there is a custom window
+    page2 = new Page2Window(this); // Replace with Page2Window if there is a custom window
     page3 = new QWidget(this); // Replace with Page3Window if there is a custom window
 
     // Add pages to QStackedWidget

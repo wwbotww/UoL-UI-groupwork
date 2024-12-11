@@ -11,22 +11,32 @@
 </head>
 <body>
 <div id="map"></div>
-
 <script>
     let map;
-    window.initMap = function() {
-        const fluorData = /*DATA_POINTS*/;
+    let markerQueue = []; // 用于在地图加载之前存储数据
+    const fluorData = /*DATA_POINTS*/;
+
+    function initMap() {
+        console.log("初始化地图...");
         map = new google.maps.Map(document.getElementById("map"), {
             center: { lat: 53.8008, lng: -1.5491 },
-            zoom: 8,
+            zoom: 6,
         });
+
+        // 在这里处理先前的数据队列
+        markerQueue.forEach((data) => updateMarkers(data));
     }
 
-    function updateMarkers(data) {
-        console.log("Updating markers:", data);
-        if (!Array.isArray(data)) return;
+    function updateMarkers(dataPoints) {
+        console.log("更新标记点...");
+        if (!map) {
+            console.log("地图未加载，存储标记点到队列");
+            markerQueue.push(dataPoints);
+            return;
+        }
 
-        data.forEach((point) => {
+        const points = JSON.parse(dataPoints);
+        points.forEach((point) => {
             new google.maps.Marker({
                 position: { lat: point.lat, lng: point.lng },
                 map: map,
@@ -34,8 +44,6 @@
         });
     }
 </script>
-
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhhFJdm1UDp89qhXd1E2mIEo7v3BGnTGM&callback=initMap"></script>
-
 </body>
 </html>

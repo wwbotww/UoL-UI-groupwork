@@ -82,6 +82,16 @@ std::vector<WaterQuality> WaterQualityDataset::filterByFluorInDefinition() const
     return result;
 }
 
+// Filter for POPs
+std::vector<WaterQuality> WaterQualityDataset::filterForPOPs() const {
+    std::vector<WaterQuality> result;
+    copy_if(data.begin(), data.end(), back_inserter(result),
+            [](const WaterQuality& record) {
+                return record.getDeterminand().find("PCB") != std::string::npos;
+            });
+    return result;
+}
+
 //Functions for environmental litter indicator
 
 //filtering dataset for visible litter pollutants

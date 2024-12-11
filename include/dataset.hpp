@@ -13,6 +13,9 @@ public:
 
     const std::vector<WaterQuality>& getData() const { return data; }
 
+    // Filtering For POPs
+    std::vector<WaterQuality> filterForPOPs() const;
+
 //    std::vector<WaterQuality> filterForLitter() const;
 //    std::map<std::string, double> summarizeLitterByLocation() const;
 //    std::map<std::string, bool> checkComplianceWithEUStandards() const;
