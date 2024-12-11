@@ -28,7 +28,7 @@ set(CMAKE_AUTORCC ON) # Ensure resource files are compiled
 set(CMAKE_AUTOUIC ON)
 
 # Find Qt6 components
-find_package(Qt6 REQUIRED COMPONENTS Widgets WebEngineWidgets)
+find_package(Qt6 REQUIRED COMPONENTS Widgets WebEngineWidgets Charts)
 
 # Include header file directories
 include_directories(include)
@@ -44,4 +44,4 @@ set(RESOURCES resources.qrc)
 add_executable(water_quality_tool main.cpp ${SOURCES} ${HEADERS} ${RESOURCES})
 
 # Link Qt6 libraries
-target_link_libraries(water_quality_tool PRIVATE Qt6::Widgets Qt6::WebEngineWidgets)
+target_link_libraries(water_quality_tool PRIVATE Qt6::Widgets Qt6::WebEngineWidgets Qt6::Charts)

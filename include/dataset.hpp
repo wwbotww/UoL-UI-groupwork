@@ -11,6 +11,9 @@ public:
     // Filtering data of determinand.definition which contains "fluor"
     std::vector<WaterQuality> filterByFluorInDefinition() const;
 
+    // Filtering For POPs
+    std::vector<WaterQuality> filterForPOPs() const;
+    
     const std::vector<WaterQuality>& getData() const { return data; }
 
 //    std::vector<WaterQuality> filterForLitter() const;

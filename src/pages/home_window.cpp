@@ -9,7 +9,7 @@ HomeWindow::HomeWindow(QWidget* parent)
     homeButton = new QPushButton("Overview");
     fluorButton = new QPushButton("Fluor Data");
     page1Button = new QPushButton("Page 1");
-    page2Button = new QPushButton("Page 2");
+    page2Button = new QPushButton("POP Data");
     page3Button = new QPushButton("Page 3");
 
     // Navigation bar layout
