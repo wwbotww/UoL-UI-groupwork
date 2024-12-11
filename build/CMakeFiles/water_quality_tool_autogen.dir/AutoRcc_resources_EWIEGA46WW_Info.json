@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "/Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/young/Desktop/UoL-UI-groupwork/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/young/Desktop/UoL-UI-groupwork/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/young/Desktop/UoL-UI-groupwork",
+	"CMAKE_SOURCE_DIR" : "/Users/young/Desktop/UoL-UI-groupwork",
+	"INCLUDE_DIR" : "/Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/young/Desktop/UoL-UI-groupwork/html/map.html",
+		"/Users/young/Desktop/UoL-UI-groupwork/data/water_quality.csv"
+	],
+	"LOCK_FILE" : "/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles/water_quality_tool_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/opt/homebrew/share/qt/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles/water_quality_tool_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/young/Desktop/UoL-UI-groupwork/resources.qrc",
+	"VERBOSITY" : 0
+}

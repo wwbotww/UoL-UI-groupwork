@@ -19,7 +19,7 @@ FluorWindow::~FluorWindow() {}
 
 void FluorWindow::loadFluorData() {
     WaterQualityDataset dataset;
-    dataset.loadData("../data/water_quality.csv");
+    dataset.loadData("/Users/young/Desktop/UoL-UI-groupwork/data/water_quality.csv");
 
     auto filteredRecords = dataset.filterByFluorInDefinition();
     std::vector<std::pair<int, int>> bngCoords;

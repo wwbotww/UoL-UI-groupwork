@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>html/map.html</file>
+        <file>data/water_quality.csv</file>
     </qresource>
 </RCC>

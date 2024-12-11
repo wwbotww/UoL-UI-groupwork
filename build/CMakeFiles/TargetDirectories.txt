@@ -1,0 +1,4 @@
+/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles/water_quality_tool.dir
+/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles/edit_cache.dir
+/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles/rebuild_cache.dir
+/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles/water_quality_tool_autogen.dir
