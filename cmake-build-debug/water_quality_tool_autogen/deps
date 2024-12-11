@@ -1304,6 +1304,14 @@ water_quality_tool_autogen/timestamp: \
 	/opt/homebrew/lib/cmake/Qt6/Qt6Targets.cmake \
 	/opt/homebrew/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+	/opt/homebrew/lib/cmake/Qt6Charts/Qt6ChartsAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6Charts/Qt6ChartsConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6Charts/Qt6ChartsConfigVersion.cmake \
+	/opt/homebrew/lib/cmake/Qt6Charts/Qt6ChartsConfigVersionImpl.cmake \
+	/opt/homebrew/lib/cmake/Qt6Charts/Qt6ChartsDependencies.cmake \
+	/opt/homebrew/lib/cmake/Qt6Charts/Qt6ChartsTargets-release.cmake \
+	/opt/homebrew/lib/cmake/Qt6Charts/Qt6ChartsTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6Charts/Qt6ChartsVersionlessTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
 	/opt/homebrew/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
 	/opt/homebrew/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
@@ -1501,6 +1509,14 @@ water_quality_tool_autogen/timestamp: \
 	/opt/homebrew/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-release.cmake \
 	/opt/homebrew/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersion.cmake \
+	/opt/homebrew/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersionImpl.cmake \
+	/opt/homebrew/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsDependencies.cmake \
+	/opt/homebrew/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets-release.cmake \
+	/opt/homebrew/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsVersionlessTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6Positioning/Qt6PositioningAdditionalTargetInfo.cmake \
 	/opt/homebrew/lib/cmake/Qt6Positioning/Qt6PositioningConfig.cmake \
 	/opt/homebrew/lib/cmake/Qt6Positioning/Qt6PositioningConfigVersion.cmake \

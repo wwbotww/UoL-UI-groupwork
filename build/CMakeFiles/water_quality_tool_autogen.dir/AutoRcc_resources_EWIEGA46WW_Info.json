@@ -5,11 +5,7 @@
 	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/young/Desktop/UoL-UI-groupwork",
 	"CMAKE_SOURCE_DIR" : "/Users/young/Desktop/UoL-UI-groupwork",
 	"INCLUDE_DIR" : "/Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/include",
-	"INPUTS" : 
-	[
-		"/Users/young/Desktop/UoL-UI-groupwork/html/map.html",
-		"/Users/young/Desktop/UoL-UI-groupwork/data/water_quality.csv"
-	],
+	"INPUTS" : [ "/Users/young/Desktop/UoL-UI-groupwork/html/map.html" ],
 	"LOCK_FILE" : "/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles/water_quality_tool_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "resources" ],

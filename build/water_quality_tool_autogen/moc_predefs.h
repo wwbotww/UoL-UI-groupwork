@@ -1,7 +1,10 @@
+#define PROJECT_SOURCE_DIR "/Users/young/Desktop/UoL-UI-groupwork"
+#define QT_CHARTS_LIB 1
 #define QT_CORE_LIB 1
 #define QT_GUI_LIB 1
 #define QT_NETWORK_LIB 1
 #define QT_NO_DEBUG 1
+#define QT_OPENGLWIDGETS_LIB 1
 #define QT_OPENGL_LIB 1
 #define QT_POSITIONING_LIB 1
 #define QT_PRINTSUPPORT_LIB 1

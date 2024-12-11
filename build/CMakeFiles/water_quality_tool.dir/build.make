@@ -72,7 +72,6 @@ include CMakeFiles/water_quality_tool.dir/flags.make
 water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/young/Desktop/UoL-UI-groupwork/resources.qrc
 water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/water_quality_tool_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
 water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/young/Desktop/UoL-UI-groupwork/html/map.html
-water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/young/Desktop/UoL-UI-groupwork/data/water_quality.csv
 water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp: /opt/homebrew/share/qt/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resources.qrc"
 	/Users/young/anaconda3/envs/UItest-env/bin/cmake -E cmake_autorcc /Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles/water_quality_tool_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json 
@@ -277,20 +276,22 @@ water_quality_tool: CMakeFiles/water_quality_tool.dir/src/water_quality.cpp.o
 water_quality_tool: CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp.o
 water_quality_tool: CMakeFiles/water_quality_tool.dir/build.make
 water_quality_tool: /opt/homebrew/lib/QtWebEngineWidgets.framework/Versions/A/QtWebEngineWidgets
+water_quality_tool: /opt/homebrew/lib/QtCharts.framework/Versions/A/QtCharts
 water_quality_tool: /opt/homebrew/lib/QtWebEngineCore.framework/Versions/A/QtWebEngineCore
 water_quality_tool: /opt/homebrew/lib/QtQuick.framework/Versions/A/QtQuick
 water_quality_tool: /opt/homebrew/lib/QtQmlModels.framework/Versions/A/QtQmlModels
-water_quality_tool: /opt/homebrew/lib/QtOpenGL.framework/Versions/A/QtOpenGL
 water_quality_tool: /opt/homebrew/lib/QtWebChannel.framework/Versions/A/QtWebChannel
 water_quality_tool: /opt/homebrew/lib/QtQml.framework/Versions/A/QtQml
 water_quality_tool: /opt/homebrew/lib/QtNetwork.framework/Versions/A/QtNetwork
 water_quality_tool: /opt/homebrew/lib/libQt6QmlBuiltins.a
 water_quality_tool: /opt/homebrew/lib/QtPositioning.framework/Versions/A/QtPositioning
 water_quality_tool: /opt/homebrew/lib/QtPrintSupport.framework/Versions/A/QtPrintSupport
+water_quality_tool: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib/libcups.tbd
+water_quality_tool: /opt/homebrew/lib/QtOpenGLWidgets.framework/Versions/A/QtOpenGLWidgets
 water_quality_tool: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
+water_quality_tool: /opt/homebrew/lib/QtOpenGL.framework/Versions/A/QtOpenGL
 water_quality_tool: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
 water_quality_tool: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
-water_quality_tool: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib/libcups.tbd
 water_quality_tool: CMakeFiles/water_quality_tool.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable water_quality_tool"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/water_quality_tool.dir/link.txt --verbose=$(VERBOSE)

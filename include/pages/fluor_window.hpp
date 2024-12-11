@@ -3,22 +3,21 @@
 
 #include <QWidget>
 #include <QVBoxLayout>
-#include <QLabel>
 #include <QWebEngineView>
 
-class FluorWindow : public QWidget {
+class FluorWindow : public QWidget
+{
 Q_OBJECT
 
 public:
     explicit FluorWindow(QWidget* parent = nullptr);
     ~FluorWindow();
 
-    void loadFluorData();
-
 private:
-    QVBoxLayout* layout;
-    QLabel* statsLabel;         // 统计数据部分
-    QWebEngineView* webView;    // Google 地图部分
+    QVBoxLayout* layout;         // 主布局
+    QWebEngineView* webView;     // 地图的 Web 视图
+
+    void loadFluorData();        // 加载并显示 Fluor 数据的函数
 };
 
 #endif // FLUOR_WINDOW_HPP

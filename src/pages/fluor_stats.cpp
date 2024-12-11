@@ -1,7 +1,7 @@
 #include "pages/fluor_stats.hpp"
 #include "dataset.hpp"
 #include <QList>
-#include <cmath> // For mathematical functions
+#include <cmath>
 #include <vector>
 #include <utility>
 

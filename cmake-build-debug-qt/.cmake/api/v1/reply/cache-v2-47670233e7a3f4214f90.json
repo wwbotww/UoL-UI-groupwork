@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/young/Desktop/UoL-UI-groupwork/cmake-build-debug"
+			"value" : "/Users/young/Desktop/UoL-UI-groupwork/cmake-build-debug-qt"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/young/Desktop/UoL-UI-groupwork/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/young/Desktop/UoL-UI-groupwork/cmake-build-debug-qt/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -1900,6 +1900,114 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: cborstreamwriter (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_charts_area_chart",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: charts_area_chart (from target Qt6::Charts)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_charts_bar_chart",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: charts_bar_chart (from target Qt6::Charts)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_charts_boxplot_chart",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: charts_boxplot_chart (from target Qt6::Charts)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_charts_candlestick_chart",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: charts_candlestick_chart (from target Qt6::Charts)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_charts_datetime_axis",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: charts_datetime_axis (from target Qt6::Charts)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_charts_line_chart",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: charts_line_chart (from target Qt6::Charts)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_charts_pie_chart",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: charts_pie_chart (from target Qt6::Charts)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_charts_scatter_chart",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: charts_scatter_chart (from target Qt6::Charts)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_charts_spline_chart",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: charts_spline_chart (from target Qt6::Charts)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -7006,6 +7114,18 @@
 			"value" : "ON"
 		},
 		{
+			"name" : "Qt6Charts_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt6Charts."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/homebrew/lib/cmake/Qt6Charts"
+		},
+		{
 			"name" : "Qt6CoreTools_DIR",
 			"properties" : 
 			[
@@ -7088,6 +7208,18 @@
 			],
 			"type" : "PATH",
 			"value" : "/opt/homebrew/lib/cmake/Qt6Network"
+		},
+		{
+			"name" : "Qt6OpenGLWidgets_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt6OpenGLWidgets."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/homebrew/lib/cmake/Qt6OpenGLWidgets"
 		},
 		{
 			"name" : "Qt6OpenGL_DIR",
@@ -7391,7 +7523,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/young/Desktop/UoL-UI-groupwork/cmake-build-debug"
+			"value" : "/Users/young/Desktop/UoL-UI-groupwork/cmake-build-debug-qt"
 		},
 		{
 			"name" : "WaterQualityAnalysis_IS_TOP_LEVEL",

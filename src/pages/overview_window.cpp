@@ -1,5 +1,6 @@
 #include "pages/overview_window.hpp"
 #include "pages/fluor_stats.hpp"
+#include <iostream>
 
 OverviewWindow::OverviewWindow(QWidget* parent)
         : QWidget(parent),
@@ -8,6 +9,7 @@ OverviewWindow::OverviewWindow(QWidget* parent)
 
     // Map section
     mapView->setMinimumHeight(300);
+
     QFile file(":/html/map.html"); // Load Google Maps HTML
     if (!file.open(QIODevice::ReadOnly)) {
         qWarning() << "Failed to open map.html";
@@ -63,7 +65,7 @@ OverviewWindow::OverviewWindow(QWidget* parent)
 }
 
 void OverviewWindow::displayFluorDataOnMap() {
-    QString jsArray = FluorStats::loadFluorDataAsJSArray("../data/water_quality.csv");
+    QString jsArray = FluorStats::loadFluorDataAsJSArray(std::string(PROJECT_SOURCE_DIR) + "/data/water_quality.csv");
     mapView->page()->runJavaScript(QString("updateMarkers(%1)").arg(jsArray));
 }
 
