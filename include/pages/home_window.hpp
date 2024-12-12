@@ -9,6 +9,7 @@
 #include <QWidget>
 #include "pages/overview_window.hpp"
 #include "pages/fluor_window.hpp"
+#include "mainwindow.h"
 
 class HomeWindow : public QMainWindow {
 Q_OBJECT
@@ -22,7 +23,8 @@ private slots:
     void showFluorWindow();
     void showPage1();
     void showPage2();
-    void showPage3();
+//    void showPage3();
+    void showPollutantWindow();
 
 private:
     QWidget* centralWidget;
@@ -32,13 +34,15 @@ private:
     QPushButton* fluorButton;
     QPushButton* page1Button;
     QPushButton* page2Button;
-    QPushButton* page3Button;
+//    QPushButton* page3Button;
+    QPushButton* pollutantButton;
 
     OverviewWindow* overviewPage;
     QWidget* fluorPage;
     QWidget* page1;
     QWidget* page2;
-    QWidget* page3;
+//    QWidget* page3;
+    QWidget* pollutantPage;
 
     QVBoxLayout* navLayout;
     QHBoxLayout* mainLayout;

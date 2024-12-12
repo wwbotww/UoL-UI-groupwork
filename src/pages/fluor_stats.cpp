@@ -98,3 +98,55 @@ QString FluorStats::loadFluorDataAsJSArray(const std::string& filePath) {
 
     return "[" + locationData.join(",") + "]"; // Return JavaScript data points array
 }
+
+QString FluorStats::loadPOPDataAsJSArray(const std::string& filePath) {
+    // Load the dataset
+    WaterQualityDataset dataset;
+    dataset.loadData(filePath);
+
+    // Filter records that contain "fluor"
+    auto filteredRecords = dataset.filterForPOPs();
+
+    // Extract BNG coordinates (easting, northing)
+    std::vector<std::pair<int, int>> bngCoords;
+    for (const auto& record : filteredRecords) {
+        bngCoords.emplace_back(record.getEasting(), record.getNorthing());
+    }
+
+    // Convert BNG coordinates to latitude and longitude
+    auto latLngCoords = FluorStats::convertBNGToLatLng(bngCoords);
+
+    // Convert to a JavaScript-formatted array string
+    QStringList locationData;
+    for (const auto& coord : latLngCoords) {
+        locationData << QString("{lat: %1, lng: %2}").arg(coord.first).arg(coord.second);
+    }
+
+    return "[" + locationData.join(",") + "]"; // Return JavaScript data points array
+}
+
+QString FluorStats::loadLitterDataAsJSArray(const std::string& filePath) {
+    // Load the dataset
+    WaterQualityDataset dataset;
+    dataset.loadData(filePath);
+
+    // Filter records that contain "fluor"
+    auto filteredRecords = dataset.filterForLitter();
+
+    // Extract BNG coordinates (easting, northing)
+    std::vector<std::pair<int, int>> bngCoords;
+    for (const auto& record : filteredRecords) {
+        bngCoords.emplace_back(record.getEasting(), record.getNorthing());
+    }
+
+    // Convert BNG coordinates to latitude and longitude
+    auto latLngCoords = FluorStats::convertBNGToLatLng(bngCoords);
+
+    // Convert to a JavaScript-formatted array string
+    QStringList locationData;
+    for (const auto& coord : latLngCoords) {
+        locationData << QString("{lat: %1, lng: %2}").arg(coord.first).arg(coord.second);
+    }
+
+    return "[" + locationData.join(",") + "]"; // Return JavaScript data points array
+}

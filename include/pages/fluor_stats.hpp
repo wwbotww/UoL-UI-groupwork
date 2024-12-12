@@ -12,6 +12,8 @@ public:
 
     // 新方法：加载 Fluor 数据并返回 JavaScript 格式的经纬度数据点
     static QString loadFluorDataAsJSArray(const std::string& filePath);
-};
+    static QString loadPOPDataAsJSArray(const std::string& filePath);
+    static QString loadLitterDataAsJSArray(const std::string& filePath);
+    };
 
 #endif // FLUOR_STATS_HPP

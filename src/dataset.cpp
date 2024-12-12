@@ -3,7 +3,7 @@
 #include <numeric>
 #include "dataset.hpp"
 #include "csv.hpp"
-#include "map"
+#include <map>
 #include <vector>
 
 using namespace std;
@@ -96,48 +96,48 @@ std::vector<WaterQuality> WaterQualityDataset::filterForPOPs() const {
 
 //filtering dataset for visible litter pollutants
 
-//std::vector<WaterQuality> WaterQualityDataset::filterForLitter() const {
-//    std::vector<WaterQuality> result;
-//    copy_if(data.begin(), data.end(), back_inserter(result),
-//            [](const WaterQuality& record) {
-//                string definition = record.getDefinition();
-//                return definition.find("plastic") != std::string::npos ||
-//                       definition.find("debris") != std::string::npos ||
-//                       definition.find("litter") != std::string::npos;
-//
-//    });
-//    return result;
-//}
+std::vector<WaterQuality> WaterQualityDataset::filterForLitter() const {
+    std::vector<WaterQuality> result;
+    copy_if(data.begin(), data.end(), back_inserter(result),
+            [](const WaterQuality& record) {
+                string definition = record.getDefinition();
+                return definition.find("plastic") != std::string::npos ||
+                       definition.find("debris") != std::string::npos ||
+                       definition.find("litter") != std::string::npos;
 
-////generating a summary for litter levels by sampling point
-//std::map<std::string, double> WaterQualityDataset::summarizeLitterByLocation() const {
-//    std::map<std::string, double> litterSummary;
-//    for (const auto& record : filterForLitter()) {
-//        double result = record.getResult();
-//        litterSummary[record.getSamplingPoint()] += result; // Aggregate litter levels
-//    }
-//    return litterSummary;
-//}
+    });
+    return result;
+}
+
+//generating a summary for litter levels by sampling point
+std::map<std::string, double> WaterQualityDataset::summarizeLitterByLocation() const {
+    std::map<std::string, double> litterSummary;
+    for (const auto& record : filterForLitter()) {
+        double result = record.getResult();
+        litterSummary[record.getSamplingPoint()] += result; // Aggregate litter levels
+    }
+    return litterSummary;
+}
 
 //generate compliance indicators for litter adherence to EU standards
 
-//std::map<std::string, bool> WaterQualityDataset::checkComplianceWithEUStandards() const {
-//    std::map<std::string, bool> compliance;
-//    for (const auto& record : filterForLitter()) {
-//        // Example compliance condition: result must be below 0.1 for visible litter
-//        bool isCompliant = record.getResult() < 0.1;
-//        compliance[record.getSamplingPoint()] = isCompliant;
-//    }
-//    return compliance;
-//}
+std::map<std::string, bool> WaterQualityDataset::checkComplianceWithEUStandards() const {
+    std::map<std::string, bool> compliance;
+    for (const auto& record : filterForLitter()) {
+        // Example compliance condition: result must be below 0.1 for visible litter
+        bool isCompliant = record.getResult() < 0.1;
+        compliance[record.getSamplingPoint()] = isCompliant;
+    }
+    return compliance;
+}
 
 //filtering data by location or type of litter
-//std::vector<WaterQuality> WaterQualityDataset::filterByLocationOrLitter(const std::string& location, const std::string& litterType) const {
-//    std::vector<WaterQuality> result;
-//    copy_if(data.begin(), data.end(), back_inserter(result),
-//            [&location, &litterType](const WaterQuality& record) {
-//                return record.getSamplingPoint().find(location) != std::string::npos &&
-//                       record.getDefinition().find(litterType) != std::string::npos;
-//            });
-//    return result;
-//}
+std::vector<WaterQuality> WaterQualityDataset::filterByLocationOrLitter(const std::string& location, const std::string& litterType) const {
+    std::vector<WaterQuality> result;
+    copy_if(data.begin(), data.end(), back_inserter(result),
+            [&location, &litterType](const WaterQuality& record) {
+                return record.getSamplingPoint().find(location) != std::string::npos &&
+                       record.getDefinition().find(litterType) != std::string::npos;
+            });
+    return result;
+}

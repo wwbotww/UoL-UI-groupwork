@@ -90,10 +90,38 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/mocs_compilation.cpp -o CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cpp.s
 
+CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.o: CMakeFiles/water_quality_tool.dir/flags.make
+CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.o: /Users/young/Desktop/UoL-UI-groupwork/src/mainwindow.cpp
+CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.o: CMakeFiles/water_quality_tool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.o -MF CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.o.d -o CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.o -c /Users/young/Desktop/UoL-UI-groupwork/src/mainwindow.cpp
+
+CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/young/Desktop/UoL-UI-groupwork/src/mainwindow.cpp > CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.i
+
+CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/young/Desktop/UoL-UI-groupwork/src/mainwindow.cpp -o CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.s
+
+CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.o: CMakeFiles/water_quality_tool.dir/flags.make
+CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.o: /Users/young/Desktop/UoL-UI-groupwork/src/pollutant1.cpp
+CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.o: CMakeFiles/water_quality_tool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.o -MF CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.o.d -o CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.o -c /Users/young/Desktop/UoL-UI-groupwork/src/pollutant1.cpp
+
+CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/young/Desktop/UoL-UI-groupwork/src/pollutant1.cpp > CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.i
+
+CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/young/Desktop/UoL-UI-groupwork/src/pollutant1.cpp -o CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.s
+
 CMakeFiles/water_quality_tool.dir/main.cpp.o: CMakeFiles/water_quality_tool.dir/flags.make
 CMakeFiles/water_quality_tool.dir/main.cpp.o: /Users/young/Desktop/UoL-UI-groupwork/main.cpp
 CMakeFiles/water_quality_tool.dir/main.cpp.o: CMakeFiles/water_quality_tool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/water_quality_tool.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/water_quality_tool.dir/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/water_quality_tool.dir/main.cpp.o -MF CMakeFiles/water_quality_tool.dir/main.cpp.o.d -o CMakeFiles/water_quality_tool.dir/main.cpp.o -c /Users/young/Desktop/UoL-UI-groupwork/main.cpp
 
 CMakeFiles/water_quality_tool.dir/main.cpp.i: cmake_force
@@ -107,7 +135,7 @@ CMakeFiles/water_quality_tool.dir/main.cpp.s: cmake_force
 CMakeFiles/water_quality_tool.dir/src/dataset.cpp.o: CMakeFiles/water_quality_tool.dir/flags.make
 CMakeFiles/water_quality_tool.dir/src/dataset.cpp.o: /Users/young/Desktop/UoL-UI-groupwork/src/dataset.cpp
 CMakeFiles/water_quality_tool.dir/src/dataset.cpp.o: CMakeFiles/water_quality_tool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/water_quality_tool.dir/src/dataset.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/water_quality_tool.dir/src/dataset.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/water_quality_tool.dir/src/dataset.cpp.o -MF CMakeFiles/water_quality_tool.dir/src/dataset.cpp.o.d -o CMakeFiles/water_quality_tool.dir/src/dataset.cpp.o -c /Users/young/Desktop/UoL-UI-groupwork/src/dataset.cpp
 
 CMakeFiles/water_quality_tool.dir/src/dataset.cpp.i: cmake_force
@@ -121,7 +149,7 @@ CMakeFiles/water_quality_tool.dir/src/dataset.cpp.s: cmake_force
 CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.o: CMakeFiles/water_quality_tool.dir/flags.make
 CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.o: /Users/young/Desktop/UoL-UI-groupwork/src/pages/fluor_stats.cpp
 CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.o: CMakeFiles/water_quality_tool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.o -MF CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.o.d -o CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.o -c /Users/young/Desktop/UoL-UI-groupwork/src/pages/fluor_stats.cpp
 
 CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.i: cmake_force
@@ -135,7 +163,7 @@ CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.s: cmake_force
 CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.o: CMakeFiles/water_quality_tool.dir/flags.make
 CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.o: /Users/young/Desktop/UoL-UI-groupwork/src/pages/fluor_window.cpp
 CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.o: CMakeFiles/water_quality_tool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.o -MF CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.o.d -o CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.o -c /Users/young/Desktop/UoL-UI-groupwork/src/pages/fluor_window.cpp
 
 CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.i: cmake_force
@@ -149,7 +177,7 @@ CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.s: cmake_force
 CMakeFiles/water_quality_tool.dir/src/pages/home_window.cpp.o: CMakeFiles/water_quality_tool.dir/flags.make
 CMakeFiles/water_quality_tool.dir/src/pages/home_window.cpp.o: /Users/young/Desktop/UoL-UI-groupwork/src/pages/home_window.cpp
 CMakeFiles/water_quality_tool.dir/src/pages/home_window.cpp.o: CMakeFiles/water_quality_tool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pages/home_window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pages/home_window.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/water_quality_tool.dir/src/pages/home_window.cpp.o -MF CMakeFiles/water_quality_tool.dir/src/pages/home_window.cpp.o.d -o CMakeFiles/water_quality_tool.dir/src/pages/home_window.cpp.o -c /Users/young/Desktop/UoL-UI-groupwork/src/pages/home_window.cpp
 
 CMakeFiles/water_quality_tool.dir/src/pages/home_window.cpp.i: cmake_force
@@ -163,7 +191,7 @@ CMakeFiles/water_quality_tool.dir/src/pages/home_window.cpp.s: cmake_force
 CMakeFiles/water_quality_tool.dir/src/pages/overview_window.cpp.o: CMakeFiles/water_quality_tool.dir/flags.make
 CMakeFiles/water_quality_tool.dir/src/pages/overview_window.cpp.o: /Users/young/Desktop/UoL-UI-groupwork/src/pages/overview_window.cpp
 CMakeFiles/water_quality_tool.dir/src/pages/overview_window.cpp.o: CMakeFiles/water_quality_tool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pages/overview_window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pages/overview_window.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/water_quality_tool.dir/src/pages/overview_window.cpp.o -MF CMakeFiles/water_quality_tool.dir/src/pages/overview_window.cpp.o.d -o CMakeFiles/water_quality_tool.dir/src/pages/overview_window.cpp.o -c /Users/young/Desktop/UoL-UI-groupwork/src/pages/overview_window.cpp
 
 CMakeFiles/water_quality_tool.dir/src/pages/overview_window.cpp.i: cmake_force
@@ -177,7 +205,7 @@ CMakeFiles/water_quality_tool.dir/src/pages/overview_window.cpp.s: cmake_force
 CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.o: CMakeFiles/water_quality_tool.dir/flags.make
 CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.o: /Users/young/Desktop/UoL-UI-groupwork/src/pages/page1_window.cpp
 CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.o: CMakeFiles/water_quality_tool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.o -MF CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.o.d -o CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.o -c /Users/young/Desktop/UoL-UI-groupwork/src/pages/page1_window.cpp
 
 CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.i: cmake_force
@@ -191,7 +219,7 @@ CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.s: cmake_force
 CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.o: CMakeFiles/water_quality_tool.dir/flags.make
 CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.o: /Users/young/Desktop/UoL-UI-groupwork/src/pages/page2_window.cpp
 CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.o: CMakeFiles/water_quality_tool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.o -MF CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.o.d -o CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.o -c /Users/young/Desktop/UoL-UI-groupwork/src/pages/page2_window.cpp
 
 CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.i: cmake_force
@@ -205,7 +233,7 @@ CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.s: cmake_force
 CMakeFiles/water_quality_tool.dir/src/pages/page3_window.cpp.o: CMakeFiles/water_quality_tool.dir/flags.make
 CMakeFiles/water_quality_tool.dir/src/pages/page3_window.cpp.o: /Users/young/Desktop/UoL-UI-groupwork/src/pages/page3_window.cpp
 CMakeFiles/water_quality_tool.dir/src/pages/page3_window.cpp.o: CMakeFiles/water_quality_tool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pages/page3_window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/water_quality_tool.dir/src/pages/page3_window.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/water_quality_tool.dir/src/pages/page3_window.cpp.o -MF CMakeFiles/water_quality_tool.dir/src/pages/page3_window.cpp.o.d -o CMakeFiles/water_quality_tool.dir/src/pages/page3_window.cpp.o -c /Users/young/Desktop/UoL-UI-groupwork/src/pages/page3_window.cpp
 
 CMakeFiles/water_quality_tool.dir/src/pages/page3_window.cpp.i: cmake_force
@@ -219,7 +247,7 @@ CMakeFiles/water_quality_tool.dir/src/pages/page3_window.cpp.s: cmake_force
 CMakeFiles/water_quality_tool.dir/src/water_quality.cpp.o: CMakeFiles/water_quality_tool.dir/flags.make
 CMakeFiles/water_quality_tool.dir/src/water_quality.cpp.o: /Users/young/Desktop/UoL-UI-groupwork/src/water_quality.cpp
 CMakeFiles/water_quality_tool.dir/src/water_quality.cpp.o: CMakeFiles/water_quality_tool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/water_quality_tool.dir/src/water_quality.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/water_quality_tool.dir/src/water_quality.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/water_quality_tool.dir/src/water_quality.cpp.o -MF CMakeFiles/water_quality_tool.dir/src/water_quality.cpp.o.d -o CMakeFiles/water_quality_tool.dir/src/water_quality.cpp.o -c /Users/young/Desktop/UoL-UI-groupwork/src/water_quality.cpp
 
 CMakeFiles/water_quality_tool.dir/src/water_quality.cpp.i: cmake_force
@@ -233,7 +261,7 @@ CMakeFiles/water_quality_tool.dir/src/water_quality.cpp.s: cmake_force
 CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/water_quality_tool.dir/flags.make
 CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp.o: water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp
 CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/water_quality_tool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp.o -MF CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp.o.d -o CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp.o -c /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp
 
 CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
@@ -247,6 +275,8 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/EWIEGA46WW/qrc_reso
 # Object files for target water_quality_tool
 water_quality_tool_OBJECTS = \
 "CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cpp.o" \
+"CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.o" \
+"CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.o" \
 "CMakeFiles/water_quality_tool.dir/main.cpp.o" \
 "CMakeFiles/water_quality_tool.dir/src/dataset.cpp.o" \
 "CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.o" \
@@ -263,6 +293,8 @@ water_quality_tool_OBJECTS = \
 water_quality_tool_EXTERNAL_OBJECTS =
 
 water_quality_tool: CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cpp.o
+water_quality_tool: CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.o
+water_quality_tool: CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.o
 water_quality_tool: CMakeFiles/water_quality_tool.dir/main.cpp.o
 water_quality_tool: CMakeFiles/water_quality_tool.dir/src/dataset.cpp.o
 water_quality_tool: CMakeFiles/water_quality_tool.dir/src/pages/fluor_stats.cpp.o
@@ -293,7 +325,7 @@ water_quality_tool: /opt/homebrew/lib/QtOpenGL.framework/Versions/A/QtOpenGL
 water_quality_tool: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
 water_quality_tool: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
 water_quality_tool: CMakeFiles/water_quality_tool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable water_quality_tool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable water_quality_tool"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/water_quality_tool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

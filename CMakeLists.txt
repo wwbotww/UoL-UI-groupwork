@@ -30,7 +30,17 @@ file(GLOB_RECURSE HEADERS "include/*.hpp")
 set(RESOURCES resources.qrc)
 
 # Executable file
-add_executable(water_quality_tool main.cpp ${SOURCES} ${HEADERS} ${RESOURCES})
+add_executable(
+        water_quality_tool
+        src/mainwindow.cpp
+        src/pollutant1.cpp
+        include/mainwindow.h
+        include/pollutant1.h
+        main.cpp
+        ${SOURCES}
+        ${HEADERS}
+        ${RESOURCES}
+)
 
 # Link Qt6 libraries
 target_link_libraries(water_quality_tool PRIVATE Qt6::Widgets Qt6::WebEngineWidgets Qt6::Charts)

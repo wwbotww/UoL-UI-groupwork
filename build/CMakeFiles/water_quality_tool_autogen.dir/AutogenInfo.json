@@ -1316,6 +1316,12 @@
 			null
 		],
 		[
+			"/Users/young/Desktop/UoL-UI-groupwork/include/mainwindow.h",
+			"MU",
+			"6YEA5652QU/moc_mainwindow.cpp",
+			null
+		],
+		[
 			"/Users/young/Desktop/UoL-UI-groupwork/include/pages/fluor_stats.hpp",
 			"MU",
 			"NSAURQ7HXI/moc_fluor_stats.cpp",
@@ -1355,6 +1361,12 @@
 			"/Users/young/Desktop/UoL-UI-groupwork/include/pages/page3_window.hpp",
 			"MU",
 			"NSAURQ7HXI/moc_page3_window.cpp",
+			null
+		],
+		[
+			"/Users/young/Desktop/UoL-UI-groupwork/include/pollutant1.h",
+			"MU",
+			"6YEA5652QU/moc_pollutant1.cpp",
 			null
 		],
 		[
@@ -1473,6 +1485,11 @@
 		[ "/Users/young/Desktop/UoL-UI-groupwork/main.cpp", "MU", null ],
 		[ "/Users/young/Desktop/UoL-UI-groupwork/src/dataset.cpp", "MU", null ],
 		[
+			"/Users/young/Desktop/UoL-UI-groupwork/src/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
 			"/Users/young/Desktop/UoL-UI-groupwork/src/pages/fluor_stats.cpp",
 			"MU",
 			null
@@ -1504,6 +1521,11 @@
 		],
 		[
 			"/Users/young/Desktop/UoL-UI-groupwork/src/pages/page3_window.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/young/Desktop/UoL-UI-groupwork/src/pollutant1.cpp",
 			"MU",
 			null
 		],

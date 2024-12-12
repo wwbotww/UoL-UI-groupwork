@@ -190,6 +190,30 @@ src/dataset.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/dataset.cpp.s
 .PHONY : src/dataset.cpp.s
 
+src/mainwindow.o: src/mainwindow.cpp.o
+.PHONY : src/mainwindow.o
+
+# target to build an object file
+src/mainwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.o
+.PHONY : src/mainwindow.cpp.o
+
+src/mainwindow.i: src/mainwindow.cpp.i
+.PHONY : src/mainwindow.i
+
+# target to preprocess a source file
+src/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.i
+.PHONY : src/mainwindow.cpp.i
+
+src/mainwindow.s: src/mainwindow.cpp.s
+.PHONY : src/mainwindow.s
+
+# target to generate assembly for a file
+src/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.s
+.PHONY : src/mainwindow.cpp.s
+
 src/pages/fluor_stats.o: src/pages/fluor_stats.cpp.o
 .PHONY : src/pages/fluor_stats.o
 
@@ -358,6 +382,30 @@ src/pages/page3_window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pages/page3_window.cpp.s
 .PHONY : src/pages/page3_window.cpp.s
 
+src/pollutant1.o: src/pollutant1.cpp.o
+.PHONY : src/pollutant1.o
+
+# target to build an object file
+src/pollutant1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.o
+.PHONY : src/pollutant1.cpp.o
+
+src/pollutant1.i: src/pollutant1.cpp.i
+.PHONY : src/pollutant1.i
+
+# target to preprocess a source file
+src/pollutant1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.i
+.PHONY : src/pollutant1.cpp.i
+
+src/pollutant1.s: src/pollutant1.cpp.s
+.PHONY : src/pollutant1.s
+
+# target to generate assembly for a file
+src/pollutant1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_quality_tool.dir/build.make CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.s
+.PHONY : src/pollutant1.cpp.s
+
 src/water_quality.o: src/water_quality.cpp.o
 .PHONY : src/water_quality.o
 
@@ -446,6 +494,9 @@ help:
 	@echo "... src/dataset.o"
 	@echo "... src/dataset.i"
 	@echo "... src/dataset.s"
+	@echo "... src/mainwindow.o"
+	@echo "... src/mainwindow.i"
+	@echo "... src/mainwindow.s"
 	@echo "... src/pages/fluor_stats.o"
 	@echo "... src/pages/fluor_stats.i"
 	@echo "... src/pages/fluor_stats.s"
@@ -467,6 +518,9 @@ help:
 	@echo "... src/pages/page3_window.o"
 	@echo "... src/pages/page3_window.i"
 	@echo "... src/pages/page3_window.s"
+	@echo "... src/pollutant1.o"
+	@echo "... src/pollutant1.i"
+	@echo "... src/pollutant1.s"
 	@echo "... src/water_quality.o"
 	@echo "... src/water_quality.i"
 	@echo "... src/water_quality.s"

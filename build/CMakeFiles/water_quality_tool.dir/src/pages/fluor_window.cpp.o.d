@@ -1123,37 +1123,86 @@ CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.o: \
   /opt/homebrew/include/QtWidgets/qlayoutitem.h \
   /opt/homebrew/include/QtWidgets/qboxlayout.h \
   /opt/homebrew/include/QtWidgets/qgridlayout.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
+  /opt/homebrew/lib/QtCharts.framework/Headers/QChartView \
+  /opt/homebrew/lib/QtCharts.framework/Headers/qchartview.h \
+  /opt/homebrew/include/QtCharts/QAbstractAxis \
+  /opt/homebrew/include/QtCharts/qabstractaxis.h \
+  /opt/homebrew/include/QtCharts/QChartGlobal \
+  /opt/homebrew/include/QtCharts/qchartglobal.h \
+  /opt/homebrew/include/QtCharts/qtcharts-config.h \
+  /opt/homebrew/include/QtCharts/qtchartsexports.h \
+  /opt/homebrew/include/QtGui/QPen /opt/homebrew/include/QtGui/qpen.h \
+  /opt/homebrew/include/QtGui/QFont \
+  /opt/homebrew/include/QtCore/QVariant \
+  /opt/homebrew/include/QtCore/QObject \
+  /opt/homebrew/include/QtCharts/QAbstractSeries \
+  /opt/homebrew/include/QtCharts/qabstractseries.h \
+  /opt/homebrew/include/QtCharts/QChart \
+  /opt/homebrew/include/QtCharts/qchart.h \
+  /opt/homebrew/include/QtCharts/QLegend \
+  /opt/homebrew/include/QtCharts/qlegend.h \
+  /opt/homebrew/include/QtWidgets/QGraphicsWidget \
+  /opt/homebrew/include/QtWidgets/qgraphicswidget.h \
+  /opt/homebrew/include/QtWidgets/qgraphicslayoutitem.h \
+  /opt/homebrew/include/QtGui/qevent.h \
+  /opt/homebrew/include/QtCore/qcoreevent.h \
+  /opt/homebrew/include/QtCore/qiodevice.h \
+  /opt/homebrew/include/QtCore/qurl.h \
+  /opt/homebrew/include/QtGui/qeventpoint.h \
+  /opt/homebrew/include/QtGui/qvector2d.h \
+  /opt/homebrew/include/QtGui/qvectornd.h \
+  /opt/homebrew/include/QtGui/qpointingdevice.h \
+  /opt/homebrew/include/QtGui/qinputdevice.h \
+  /opt/homebrew/include/QtGui/qscreen.h \
+  /opt/homebrew/include/QtCore/QList /opt/homebrew/include/QtCore/QRect \
+  /opt/homebrew/include/QtCore/QSize /opt/homebrew/include/QtCore/QSizeF \
+  /opt/homebrew/include/QtGui/QTransform \
+  /opt/homebrew/include/QtCore/qnativeinterface.h \
+  /opt/homebrew/include/QtGui/qscreen_platform.h \
+  /opt/homebrew/include/QtGui/qguiapplication.h \
+  /opt/homebrew/include/QtCore/qcoreapplication.h \
+  /opt/homebrew/include/QtCore/qdeadlinetimer.h \
+  /opt/homebrew/include/QtCore/qelapsedtimer.h \
+  /opt/homebrew/include/QtCore/qeventloop.h \
+  /opt/homebrew/include/QtCore/qcoreapplication_platform.h \
+  /opt/homebrew/include/QtGui/qinputmethod.h \
+  /opt/homebrew/include/QtCore/qlocale.h \
+  /opt/homebrew/include/QtGui/qguiapplication_platform.h \
+  /opt/homebrew/include/QtWidgets/qgraphicsitem.h \
+  /opt/homebrew/include/QtGui/qpainterpath.h \
+  /opt/homebrew/include/QtGui/QBrush \
+  /opt/homebrew/include/QtCore/QMargins \
+  /opt/homebrew/include/QtWidgets/QGraphicsView \
+  /opt/homebrew/include/QtWidgets/qgraphicsview.h \
+  /opt/homebrew/include/QtGui/qpainter.h \
+  /opt/homebrew/include/QtGui/qtextoption.h \
+  /opt/homebrew/include/QtWidgets/qscrollarea.h \
+  /opt/homebrew/include/QtWidgets/qabstractscrollarea.h \
   /opt/homebrew/include/QtWidgets/qframe.h \
   /opt/homebrew/include/QtWidgets/qwidget.h \
-  /opt/homebrew/include/QtGui/qpicture.h \
-  /opt/homebrew/include/QtCore/qiodevice.h \
-  /opt/homebrew/include/QtGui/qtextdocument.h \
-  /opt/homebrew/include/QtCore/qurl.h \
-  /opt/homebrew/lib/QtWebEngineWidgets.framework/Headers/QWebEngineView \
-  /opt/homebrew/lib/QtWebEngineWidgets.framework/Headers/qwebengineview.h \
-  /opt/homebrew/include/QtGui/QPageLayout \
-  /opt/homebrew/include/QtGui/qpagelayout.h \
-  /opt/homebrew/include/QtGui/qpagesize.h \
-  /opt/homebrew/include/QtGui/qpageranges.h \
-  /opt/homebrew/include/QtWebEngineWidgets/qtwebenginewidgetsglobal.h \
-  /opt/homebrew/include/QtWebEngineCore/qwebenginepage.h \
-  /opt/homebrew/include/QtWebEngineCore/qtwebenginecoreglobal.h \
-  /opt/homebrew/include/QtWebEngineCore/qtwebenginecore-config.h \
-  /opt/homebrew/include/QtWebEngineCore/qwebengineclientcertificateselection.h \
-  /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
-  /opt/homebrew/include/QtNetwork/qsslcertificate.h \
-  /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
-  /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
-  /opt/homebrew/include/QtCore/qcryptographichash.h \
-  /opt/homebrew/include/QtCore/qdatetime.h \
-  /opt/homebrew/include/QtCore/qcalendar.h \
-  /opt/homebrew/include/QtCore/qlocale.h \
-  /opt/homebrew/include/QtNetwork/qssl.h \
-  /opt/homebrew/include/QtCore/QFlags \
-  /opt/homebrew/include/QtWebEngineCore/qwebenginedownloadrequest.h \
-  /opt/homebrew/include/QtWebEngineCore/qwebenginequotarequest.h \
+  /opt/homebrew/include/QtWidgets/qgraphicsscene.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QComboBox \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qcombobox.h \
+  /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h \
+  /opt/homebrew/include/QtWidgets/qstyleoption.h \
+  /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
+  /opt/homebrew/include/QtGui/qvalidator.h \
+  /opt/homebrew/include/QtCore/qregularexpression.h \
+  /opt/homebrew/include/QtWidgets/qslider.h \
+  /opt/homebrew/include/QtWidgets/qabstractslider.h \
+  /opt/homebrew/include/QtWidgets/qstyle.h \
+  /opt/homebrew/include/QtWidgets/qtabbar.h \
+  /opt/homebrew/include/QtWidgets/qtabwidget.h \
+  /opt/homebrew/include/QtWidgets/qrubberband.h \
+  /opt/homebrew/include/QtCore/qabstractitemmodel.h \
+  /opt/homebrew/lib/QtCharts.framework/Headers/QScatterSeries \
+  /opt/homebrew/lib/QtCharts.framework/Headers/qscatterseries.h \
+  /opt/homebrew/include/QtCharts/qxyseries.h \
+  /opt/homebrew/include/QtGui/QImage \
+  /opt/homebrew/lib/QtCharts.framework/Headers/QDateTimeAxis \
+  /opt/homebrew/lib/QtCharts.framework/Headers/qdatetimeaxis.h \
+  /opt/homebrew/lib/QtCharts.framework/Headers/QValueAxis \
+  /opt/homebrew/lib/QtCharts.framework/Headers/qvalueaxis.h \
   /Users/young/Desktop/UoL-UI-groupwork/include/dataset.hpp \
   /Users/young/Desktop/UoL-UI-groupwork/include/water_quality.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \
@@ -1184,9 +1233,10 @@ CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/unistd.h \
-  /Users/young/Desktop/UoL-UI-groupwork/include/pages/fluor_stats.hpp \
-  /opt/homebrew/lib/QtCore.framework/Headers/QString \
-  /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \
+  /opt/homebrew/include/QtCharts/QScatterSeries \
+  /opt/homebrew/lib/QtCore.framework/Headers/QDateTime \
+  /opt/homebrew/lib/QtCore.framework/Headers/qdatetime.h \
+  /opt/homebrew/include/QtCore/qcalendar.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QFile \
   /opt/homebrew/lib/QtCore.framework/Headers/qfile.h \
   /opt/homebrew/include/QtCore/qfiledevice.h \
@@ -1209,9 +1259,4 @@ CMakeFiles/water_quality_tool.dir/src/pages/fluor_window.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QDebug \
-  /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QDir \
-  /opt/homebrew/lib/QtCore.framework/Headers/qdir.h \
-  /opt/homebrew/include/QtCore/qfile.h \
-  /opt/homebrew/include/QtCore/qfileinfo.h \
-  /opt/homebrew/include/QtCore/qtimezone.h
+  /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h

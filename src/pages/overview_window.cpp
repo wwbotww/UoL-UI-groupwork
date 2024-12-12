@@ -15,7 +15,6 @@ OverviewWindow::OverviewWindow(QWidget* parent)
         qWarning() << "Failed to open map.html";
         return;
     }
-
     QString html = file.readAll();
     html.replace("/*DATA_POINTS*/", "[]"); // Empty array on initial load
     mapView->setHtml(html); // Load Google Maps when the page is displayed
@@ -38,7 +37,7 @@ OverviewWindow::OverviewWindow(QWidget* parent)
     // Page1 module
     QWidget* page1Widget = new QWidget(this);
     QVBoxLayout* page1Layout = new QVBoxLayout(page1Widget);
-    QPushButton* page1Button = new QPushButton("Show Page1 Data", this);
+    QPushButton* page1Button = new QPushButton("Show Litter Data on Map", this);
     page1Layout->addWidget(page1Button);
     connect(page1Button, &QPushButton::clicked, this, &OverviewWindow::displayPage1DataOnMap);
     gridLayout->addWidget(page1Widget, 0, 1);
@@ -46,7 +45,7 @@ OverviewWindow::OverviewWindow(QWidget* parent)
     // Page2 module
     QWidget* page2Widget = new QWidget(this);
     QVBoxLayout* page2Layout = new QVBoxLayout(page2Widget);
-    QPushButton* page2Button = new QPushButton("Show Page2 Data", this);
+    QPushButton* page2Button = new QPushButton("Show POPs Data on Map", this);
     page2Layout->addWidget(page2Button);
     connect(page2Button, &QPushButton::clicked, this, &OverviewWindow::displayPage2DataOnMap);
     gridLayout->addWidget(page2Widget, 1, 0);
@@ -70,13 +69,13 @@ void OverviewWindow::displayFluorDataOnMap() {
 }
 
 void OverviewWindow::displayPage1DataOnMap() {
-    // Load logic for Page1 data (data processing logic to be added)
-    mapView->page()->runJavaScript("updateMarkers([])");
+    QString jsArray = FluorStats::loadLitterDataAsJSArray(std::string(PROJECT_SOURCE_DIR) + "/data/water_quality.csv");
+    mapView->page()->runJavaScript(QString("updateMarkers(%1)").arg(jsArray));
 }
 
 void OverviewWindow::displayPage2DataOnMap() {
-    // Load logic for Page2 data (data processing logic to be added)
-    mapView->page()->runJavaScript("updateMarkers([])");
+    QString jsArray = FluorStats::loadPOPDataAsJSArray(std::string(PROJECT_SOURCE_DIR) + "/data/water_quality.csv");
+    mapView->page()->runJavaScript(QString("updateMarkers(%1)").arg(jsArray));
 }
 
 void OverviewWindow::displayPage3DataOnMap() {
