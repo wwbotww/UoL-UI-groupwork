@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "WaterQualityAnalysis",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "water_quality_tool::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-water_quality_tool-Debug-a34a9ba9e89b54cc7963.json",
+					"name" : "water_quality_tool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "water_quality_tool_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-water_quality_tool_autogen-Debug-7df2aa7ac3db4e5beccb.json",
+					"name" : "water_quality_tool_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "water_quality_tool_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-water_quality_tool_autogen_timestamp_deps-Debug-5a08ed0b8146f50931fe.json",
+					"name" : "water_quality_tool_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/young/Desktop/UoL-UI-groupwork/cmake-build-debug",
+		"source" : "/Users/young/Desktop/UoL-UI-groupwork"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
