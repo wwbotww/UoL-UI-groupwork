@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../include/pollutant1.h"
+#include "../../../include/pages/pollutant1.h"
 #include <QtCore/qmetatype.h>
 
 #include <QtCore/qtmochelpers.h>

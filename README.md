@@ -2,9 +2,11 @@
 # Water Quality Monitoring Tool
 
 ## Team Members
-- **[Team Member 1]**: Name, Student ID
-- **[Team Member 2]**: Name, Student ID
-- **[Team Member 3]**: Name, Student ID
+- **[Team Member 1]**: Shaohui Yang, 201690924
+- **[Team Member 2]**: Lew Jun Keat, 201889966
+- **[Team Member 3]**: Terrence Gwatipedza, 201633773
+- **[Team Member 4]**: Joshua Adam Muhd Dullah, 201803554
+- **[Team Member 5]**: Mohammed Tahzim, 201713162
 
 ---
 

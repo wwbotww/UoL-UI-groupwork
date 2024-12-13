@@ -1294,7 +1294,7 @@ CMakeFiles/water_quality_tool.dir/main.cpp.o: \
   /Users/young/Desktop/UoL-UI-groupwork/include/dataset.hpp \
   /Users/young/Desktop/UoL-UI-groupwork/include/water_quality.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \
-  /Users/young/Desktop/UoL-UI-groupwork/include/mainwindow.h \
+  /Users/young/Desktop/UoL-UI-groupwork/include/pages/mainwindow.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/QtCharts \
   /opt/homebrew/include/QtCharts/QtChartsDepends \
   /opt/homebrew/include/QtCore/QtCore \
@@ -1815,7 +1815,7 @@ CMakeFiles/water_quality_tool.dir/main.cpp.o: \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qfiledialog.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QVector \
   /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
-  /Users/young/Desktop/UoL-UI-groupwork/include/pollutant1.h \
+  /Users/young/Desktop/UoL-UI-groupwork/include/pages/pollutant1.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDateEdit \

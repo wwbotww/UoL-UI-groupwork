@@ -1,9 +1,9 @@
 CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cpp.o: \
   /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/mocs_compilation.cpp \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/6YEA5652QU/moc_mainwindow.cpp \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/6YEA5652QU/../../../include/mainwindow.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_fluor_window.cpp \
+  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/fluor_window.hpp \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
   /opt/homebrew/include/QtCore/qglobal.h \
@@ -577,7 +577,6 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/include/QtGui/qtguiexports.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
-  /opt/homebrew/include/QtWidgets/qwidget.h \
   /opt/homebrew/include/QtGui/qwindowdefs.h \
   /opt/homebrew/include/QtCore/qobjectdefs.h \
   /opt/homebrew/include/QtCore/qnamespace.h \
@@ -1119,79 +1118,95 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtGui/qcursor.h \
   /opt/homebrew/include/QtGui/qbitmap.h \
-  /opt/homebrew/include/QtWidgets/qtabwidget.h \
-  /opt/homebrew/lib/QtCharts.framework/Headers/QtCharts \
-  /opt/homebrew/include/QtCharts/QtChartsDepends \
-  /opt/homebrew/include/QtCore/QtCore \
-  /opt/homebrew/include/QtCore/QtCoreDepends \
-  /opt/homebrew/include/QtCore/q20algorithm.h \
-  /opt/homebrew/include/QtCore/q20chrono.h \
-  /opt/homebrew/include/QtCore/q20iterator.h \
-  /opt/homebrew/include/QtCore/q20map.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/memory_resource \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory_resource/monotonic_buffer_resource.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory_resource/pool_options.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory_resource/synchronized_pool_resource.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory_resource/unsynchronized_pool_resource.h \
-  /opt/homebrew/include/QtCore/q20vector.h \
-  /opt/homebrew/include/QtCore/q23functional.h \
-  /opt/homebrew/include/QtCore/qabstractanimation.h \
-  /opt/homebrew/include/QtCore/qabstracteventdispatcher.h \
-  /opt/homebrew/include/QtCore/qeventloop.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayoutitem.h \
+  /opt/homebrew/include/QtWidgets/qboxlayout.h \
+  /opt/homebrew/include/QtWidgets/qgridlayout.h \
+  /opt/homebrew/lib/QtCharts.framework/Headers/QChartView \
+  /opt/homebrew/lib/QtCharts.framework/Headers/qchartview.h \
+  /opt/homebrew/include/QtCharts/QAbstractAxis \
+  /opt/homebrew/include/QtCharts/qabstractaxis.h \
+  /opt/homebrew/include/QtCharts/QChartGlobal \
+  /opt/homebrew/include/QtCharts/qchartglobal.h \
+  /opt/homebrew/include/QtCharts/qtcharts-config.h \
+  /opt/homebrew/include/QtCharts/qtchartsexports.h \
+  /opt/homebrew/include/QtGui/QPen /opt/homebrew/include/QtGui/qpen.h \
+  /opt/homebrew/include/QtGui/QFont \
+  /opt/homebrew/include/QtCore/QVariant \
+  /opt/homebrew/include/QtCore/QObject \
+  /opt/homebrew/include/QtCharts/QAbstractSeries \
+  /opt/homebrew/include/QtCharts/qabstractseries.h \
+  /opt/homebrew/include/QtCharts/QChart \
+  /opt/homebrew/include/QtCharts/qchart.h \
+  /opt/homebrew/include/QtCharts/QLegend \
+  /opt/homebrew/include/QtCharts/qlegend.h \
+  /opt/homebrew/include/QtWidgets/QGraphicsWidget \
+  /opt/homebrew/include/QtWidgets/qgraphicswidget.h \
+  /opt/homebrew/include/QtWidgets/qgraphicslayoutitem.h \
+  /opt/homebrew/include/QtGui/qevent.h \
+  /opt/homebrew/include/QtCore/qcoreevent.h \
+  /opt/homebrew/include/QtCore/qiodevice.h \
+  /opt/homebrew/include/QtCore/qurl.h \
+  /opt/homebrew/include/QtGui/qeventpoint.h \
+  /opt/homebrew/include/QtGui/qvector2d.h \
+  /opt/homebrew/include/QtGui/qvectornd.h \
+  /opt/homebrew/include/QtGui/qpointingdevice.h \
+  /opt/homebrew/include/QtGui/qinputdevice.h \
+  /opt/homebrew/include/QtGui/qscreen.h \
+  /opt/homebrew/include/QtCore/QList /opt/homebrew/include/QtCore/QRect \
+  /opt/homebrew/include/QtCore/QSize /opt/homebrew/include/QtCore/QSizeF \
+  /opt/homebrew/include/QtGui/QTransform \
+  /opt/homebrew/include/QtCore/qnativeinterface.h \
+  /opt/homebrew/include/QtGui/qscreen_platform.h \
+  /opt/homebrew/include/QtGui/qguiapplication.h \
+  /opt/homebrew/include/QtCore/qcoreapplication.h \
   /opt/homebrew/include/QtCore/qdeadlinetimer.h \
   /opt/homebrew/include/QtCore/qelapsedtimer.h \
-  /opt/homebrew/include/QtCore/qabstractitemmodel.h \
-  /opt/homebrew/include/QtCore/qabstractnativeeventfilter.h \
-  /opt/homebrew/include/QtCore/qabstractproxymodel.h \
-  /opt/homebrew/include/QtCore/qanimationgroup.h \
-  /opt/homebrew/include/QtCore/qapplicationstatic.h \
-  /opt/homebrew/include/QtCore/QMutex \
-  /opt/homebrew/include/QtCore/qmutex.h \
-  /opt/homebrew/include/QtCore/qtsan_impl.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/sanitizer/tsan_interface.h \
-  /opt/homebrew/include/QtCore/qcoreapplication.h \
-  /opt/homebrew/include/QtCore/qcoreevent.h \
-  /opt/homebrew/include/QtCore/qnativeinterface.h \
+  /opt/homebrew/include/QtCore/qeventloop.h \
   /opt/homebrew/include/QtCore/qcoreapplication_platform.h \
-  /opt/homebrew/include/QtCore/qassociativeiterable.h \
-  /opt/homebrew/include/QtCore/qatomicscopedvaluerollback.h \
-  /opt/homebrew/include/QtCore/qbasictimer.h \
-  /opt/homebrew/include/QtCore/qbitarray.h \
-  /opt/homebrew/include/QtCore/qbuffer.h \
-  /opt/homebrew/include/QtCore/qiodevice.h \
-  /opt/homebrew/include/QtCore/qbytearraymatcher.h \
-  /opt/homebrew/include/QtCore/qcache.h \
-  /opt/homebrew/include/QtCore/qcalendar.h \
+  /opt/homebrew/include/QtGui/qinputmethod.h \
   /opt/homebrew/include/QtCore/qlocale.h \
-  /opt/homebrew/include/QtCore/qcborarray.h \
-  /opt/homebrew/include/QtCore/qcborvalue.h \
-  /opt/homebrew/include/QtCore/qdatetime.h \
-  /opt/homebrew/include/QtCore/qcborcommon.h \
+  /opt/homebrew/include/QtGui/qguiapplication_platform.h \
+  /opt/homebrew/include/QtWidgets/qgraphicsitem.h \
+  /opt/homebrew/include/QtGui/qpainterpath.h \
+  /opt/homebrew/include/QtGui/QBrush \
+  /opt/homebrew/include/QtCore/QMargins \
+  /opt/homebrew/include/QtWidgets/QGraphicsView \
+  /opt/homebrew/include/QtWidgets/qgraphicsview.h \
+  /opt/homebrew/include/QtGui/qpainter.h \
+  /opt/homebrew/include/QtGui/qtextoption.h \
+  /opt/homebrew/include/QtWidgets/qscrollarea.h \
+  /opt/homebrew/include/QtWidgets/qabstractscrollarea.h \
+  /opt/homebrew/include/QtWidgets/qframe.h \
+  /opt/homebrew/include/QtWidgets/qwidget.h \
+  /opt/homebrew/include/QtWidgets/qgraphicsscene.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QComboBox \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qcombobox.h \
+  /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h \
+  /opt/homebrew/include/QtWidgets/qstyleoption.h \
+  /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
+  /opt/homebrew/include/QtGui/qvalidator.h \
   /opt/homebrew/include/QtCore/qregularexpression.h \
-  /opt/homebrew/include/QtCore/qurl.h \
-  /opt/homebrew/include/QtCore/quuid.h \
-  /opt/homebrew/include/QtCore/qcbormap.h \
-  /opt/homebrew/include/QtCore/qcborstream.h \
-  /opt/homebrew/include/QtCore/qcborstreamreader.h \
-  /opt/homebrew/include/QtCore/qcborstreamwriter.h \
-  /opt/homebrew/include/QtCore/qcollator.h \
-  /opt/homebrew/include/QtCore/qcommandlineoption.h \
-  /opt/homebrew/include/QtCore/qcommandlineparser.h \
-  /opt/homebrew/include/QtCore/qconcatenatetablesproxymodel.h \
-  /opt/homebrew/include/QtCore/qcryptographichash.h \
-  /opt/homebrew/include/QtCore/qdir.h \
-  /opt/homebrew/include/QtCore/qfile.h \
-  /opt/homebrew/include/QtCore/qfiledevice.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/filesystem \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/file_status.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/file_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/perms.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/path.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iomanip \
+  /opt/homebrew/include/QtWidgets/qslider.h \
+  /opt/homebrew/include/QtWidgets/qabstractslider.h \
+  /opt/homebrew/include/QtWidgets/qstyle.h \
+  /opt/homebrew/include/QtWidgets/qtabbar.h \
+  /opt/homebrew/include/QtWidgets/qtabwidget.h \
+  /opt/homebrew/include/QtWidgets/qrubberband.h \
+  /opt/homebrew/include/QtCore/qabstractitemmodel.h \
+  /opt/homebrew/lib/QtCharts.framework/Headers/QScatterSeries \
+  /opt/homebrew/lib/QtCharts.framework/Headers/qscatterseries.h \
+  /opt/homebrew/include/QtCharts/qxyseries.h \
+  /opt/homebrew/include/QtGui/QImage \
+  /opt/homebrew/lib/QtCharts.framework/Headers/QDateTimeAxis \
+  /opt/homebrew/lib/QtCharts.framework/Headers/qdatetimeaxis.h \
+  /opt/homebrew/lib/QtCharts.framework/Headers/QValueAxis \
+  /opt/homebrew/lib/QtCharts.framework/Headers/qvalueaxis.h \
+  /Users/young/Desktop/UoL-UI-groupwork/include/dataset.hpp \
+  /Users/young/Desktop/UoL-UI-groupwork/include/water_quality.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/ostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/bitset \
@@ -1219,6 +1234,57 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/unistd.h \
+  /opt/homebrew/include/QtCore/qtmochelpers.h \
+  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_home_window.cpp \
+  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/home_window.hpp \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /opt/homebrew/include/QtWidgets/qabstractbutton.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QStackedWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qstackedwidget.h \
+  /Users/young/Desktop/UoL-UI-groupwork/include/pages/overview_window.hpp \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
+  /opt/homebrew/include/QtGui/qpicture.h \
+  /opt/homebrew/include/QtGui/qtextdocument.h \
+  /opt/homebrew/lib/QtWebEngineWidgets.framework/Headers/QWebEngineView \
+  /opt/homebrew/lib/QtWebEngineWidgets.framework/Headers/qwebengineview.h \
+  /opt/homebrew/include/QtGui/QPageLayout \
+  /opt/homebrew/include/QtGui/qpagelayout.h \
+  /opt/homebrew/include/QtGui/qpagesize.h \
+  /opt/homebrew/include/QtGui/qpageranges.h \
+  /opt/homebrew/include/QtWebEngineWidgets/qtwebenginewidgetsglobal.h \
+  /opt/homebrew/include/QtWebEngineCore/qwebenginepage.h \
+  /opt/homebrew/include/QtWebEngineCore/qtwebenginecoreglobal.h \
+  /opt/homebrew/include/QtWebEngineCore/qtwebenginecore-config.h \
+  /opt/homebrew/include/QtWebEngineCore/qwebengineclientcertificateselection.h \
+  /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
+  /opt/homebrew/include/QtNetwork/qsslcertificate.h \
+  /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
+  /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
+  /opt/homebrew/include/QtCore/qcryptographichash.h \
+  /opt/homebrew/include/QtCore/qdatetime.h \
+  /opt/homebrew/include/QtCore/qcalendar.h \
+  /opt/homebrew/include/QtNetwork/qssl.h \
+  /opt/homebrew/include/QtCore/QFlags \
+  /opt/homebrew/include/QtWebEngineCore/qwebenginedownloadrequest.h \
+  /opt/homebrew/include/QtWebEngineCore/qwebenginequotarequest.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QFile \
+  /opt/homebrew/lib/QtCore.framework/Headers/qfile.h \
+  /opt/homebrew/include/QtCore/qfiledevice.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iomanip \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/operations.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/space_info.h \
@@ -1227,6 +1293,54 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Users/young/Desktop/UoL-UI-groupwork/include/pages/fluor_window.hpp \
+  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/mainwindow.h \
+  /opt/homebrew/lib/QtCharts.framework/Headers/QtCharts \
+  /opt/homebrew/include/QtCharts/QtChartsDepends \
+  /opt/homebrew/include/QtCore/QtCore \
+  /opt/homebrew/include/QtCore/QtCoreDepends \
+  /opt/homebrew/include/QtCore/q20algorithm.h \
+  /opt/homebrew/include/QtCore/q20chrono.h \
+  /opt/homebrew/include/QtCore/q20iterator.h \
+  /opt/homebrew/include/QtCore/q20map.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/memory_resource \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory_resource/monotonic_buffer_resource.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory_resource/pool_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory_resource/synchronized_pool_resource.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory_resource/unsynchronized_pool_resource.h \
+  /opt/homebrew/include/QtCore/q20vector.h \
+  /opt/homebrew/include/QtCore/q23functional.h \
+  /opt/homebrew/include/QtCore/qabstractanimation.h \
+  /opt/homebrew/include/QtCore/qabstracteventdispatcher.h \
+  /opt/homebrew/include/QtCore/qabstractnativeeventfilter.h \
+  /opt/homebrew/include/QtCore/qabstractproxymodel.h \
+  /opt/homebrew/include/QtCore/qanimationgroup.h \
+  /opt/homebrew/include/QtCore/qapplicationstatic.h \
+  /opt/homebrew/include/QtCore/QMutex \
+  /opt/homebrew/include/QtCore/qmutex.h \
+  /opt/homebrew/include/QtCore/qtsan_impl.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/sanitizer/tsan_interface.h \
+  /opt/homebrew/include/QtCore/qassociativeiterable.h \
+  /opt/homebrew/include/QtCore/qatomicscopedvaluerollback.h \
+  /opt/homebrew/include/QtCore/qbasictimer.h \
+  /opt/homebrew/include/QtCore/qbitarray.h \
+  /opt/homebrew/include/QtCore/qbuffer.h \
+  /opt/homebrew/include/QtCore/qbytearraymatcher.h \
+  /opt/homebrew/include/QtCore/qcache.h \
+  /opt/homebrew/include/QtCore/qcborarray.h \
+  /opt/homebrew/include/QtCore/qcborvalue.h \
+  /opt/homebrew/include/QtCore/qcborcommon.h \
+  /opt/homebrew/include/QtCore/quuid.h \
+  /opt/homebrew/include/QtCore/qcbormap.h \
+  /opt/homebrew/include/QtCore/qcborstream.h \
+  /opt/homebrew/include/QtCore/qcborstreamreader.h \
+  /opt/homebrew/include/QtCore/qcborstreamwriter.h \
+  /opt/homebrew/include/QtCore/qcollator.h \
+  /opt/homebrew/include/QtCore/qcommandlineoption.h \
+  /opt/homebrew/include/QtCore/qcommandlineparser.h \
+  /opt/homebrew/include/QtCore/qconcatenatetablesproxymodel.h \
+  /opt/homebrew/include/QtCore/qdir.h \
+  /opt/homebrew/include/QtCore/qfile.h \
   /opt/homebrew/include/QtCore/qfileinfo.h \
   /opt/homebrew/include/QtCore/qtimezone.h \
   /opt/homebrew/include/QtCore/qdiriterator.h \
@@ -1234,7 +1348,6 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/include/QtCore/qexception.h \
   /opt/homebrew/include/QtCore/qfactoryinterface.h \
   /opt/homebrew/include/QtCore/qfileselector.h \
-  /opt/homebrew/include/QtCore/QObject \
   /opt/homebrew/include/QtCore/QStringList \
   /opt/homebrew/include/QtCore/qfilesystemwatcher.h \
   /opt/homebrew/include/QtCore/qfuture.h \
@@ -1365,10 +1478,8 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/include/QtCore/qurlquery.h \
   /opt/homebrew/include/QtCore/qvarianthash.h \
   /opt/homebrew/include/QtCore/QHash \
-  /opt/homebrew/include/QtCore/QVariant \
   /opt/homebrew/include/QtCore/QString \
   /opt/homebrew/include/QtCore/qvariantlist.h \
-  /opt/homebrew/include/QtCore/QList \
   /opt/homebrew/include/QtCore/qvariantmap.h \
   /opt/homebrew/include/QtCore/QMap \
   /opt/homebrew/include/QtCore/qvector.h \
@@ -1382,28 +1493,11 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/include/QtGui/qabstractfileiconprovider.h \
   /opt/homebrew/include/QtGui/qabstracttextdocumentlayout.h \
   /opt/homebrew/include/QtGui/qtextlayout.h \
-  /opt/homebrew/include/QtGui/qevent.h \
-  /opt/homebrew/include/QtGui/qeventpoint.h \
-  /opt/homebrew/include/QtGui/qvector2d.h \
-  /opt/homebrew/include/QtGui/qvectornd.h \
-  /opt/homebrew/include/QtGui/qpointingdevice.h \
-  /opt/homebrew/include/QtGui/qinputdevice.h \
-  /opt/homebrew/include/QtGui/qscreen.h \
-  /opt/homebrew/include/QtCore/QRect /opt/homebrew/include/QtCore/QSize \
-  /opt/homebrew/include/QtCore/QSizeF \
-  /opt/homebrew/include/QtGui/QTransform \
-  /opt/homebrew/include/QtGui/qscreen_platform.h \
-  /opt/homebrew/include/QtGui/qguiapplication.h \
-  /opt/homebrew/include/QtGui/qinputmethod.h \
-  /opt/homebrew/include/QtGui/qguiapplication_platform.h \
   /opt/homebrew/include/QtGui/qglyphrun.h \
   /opt/homebrew/include/QtGui/qrawfont.h \
   /opt/homebrew/include/QtGui/qfontdatabase.h \
   /opt/homebrew/include/QtGui/qtextcursor.h \
-  /opt/homebrew/include/QtGui/qtextdocument.h \
   /opt/homebrew/include/QtGui/qtextformat.h \
-  /opt/homebrew/include/QtGui/qpen.h \
-  /opt/homebrew/include/QtGui/qtextoption.h \
   /opt/homebrew/include/QtGui/qaccessible.h \
   /opt/homebrew/include/QtGui/qaccessible_base.h \
   /opt/homebrew/include/QtGui/qaccessiblebridge.h \
@@ -1413,7 +1507,6 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/include/QtGui/qbackingstore.h \
   /opt/homebrew/include/QtGui/qwindow.h \
   /opt/homebrew/include/QtCore/QEvent \
-  /opt/homebrew/include/QtCore/QMargins \
   /opt/homebrew/include/QtGui/qsurface.h \
   /opt/homebrew/include/QtGui/qsurfaceformat.h \
   /opt/homebrew/include/QtGui/qclipboard.h \
@@ -1455,17 +1548,11 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/include/QtGui/qopenglextrafunctions.h \
   /opt/homebrew/include/QtGui/qopenglfunctions.h \
   /opt/homebrew/include/QtGui/qpagedpaintdevice.h \
-  /opt/homebrew/include/QtGui/qpagelayout.h \
-  /opt/homebrew/include/QtGui/qpagesize.h \
-  /opt/homebrew/include/QtGui/qpageranges.h \
   /opt/homebrew/include/QtGui/qpaintdevicewindow.h \
   /opt/homebrew/include/QtGui/QWindow \
   /opt/homebrew/include/QtGui/QPaintDevice \
   /opt/homebrew/include/QtGui/qpaintengine.h \
-  /opt/homebrew/include/QtGui/qpainter.h \
-  /opt/homebrew/include/QtGui/qpainterpath.h \
   /opt/homebrew/include/QtGui/qpdfwriter.h \
-  /opt/homebrew/include/QtGui/qpicture.h \
   /opt/homebrew/include/QtGui/qpixmapcache.h \
   /opt/homebrew/include/QtGui/qrasterwindow.h \
   /opt/homebrew/include/QtGui/QPaintDeviceWindow \
@@ -1485,31 +1572,15 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/include/QtGui/qundogroup.h \
   /opt/homebrew/include/QtGui/qundostack.h \
   /opt/homebrew/include/QtGui/qutimimeconverter.h \
-  /opt/homebrew/include/QtGui/qvalidator.h \
   /opt/homebrew/include/QtWidgets/QtWidgets \
   /opt/homebrew/include/QtWidgets/QtWidgetsDepends \
-  /opt/homebrew/include/QtWidgets/qabstractbutton.h \
-  /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h \
-  /opt/homebrew/include/QtWidgets/qstyleoption.h \
-  /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
-  /opt/homebrew/include/QtWidgets/qslider.h \
-  /opt/homebrew/include/QtWidgets/qabstractslider.h \
-  /opt/homebrew/include/QtWidgets/qstyle.h \
-  /opt/homebrew/include/QtWidgets/qtabbar.h \
-  /opt/homebrew/include/QtWidgets/qrubberband.h \
-  /opt/homebrew/include/QtWidgets/qframe.h \
   /opt/homebrew/include/QtWidgets/qabstractitemview.h \
-  /opt/homebrew/include/QtWidgets/qabstractscrollarea.h \
   /opt/homebrew/include/QtWidgets/qaccessiblewidget.h \
   /opt/homebrew/include/QtWidgets/qaction.h \
   /opt/homebrew/include/QtGui/QAction \
   /opt/homebrew/include/QtWidgets/qactiongroup.h \
   /opt/homebrew/include/QtGui/QActionGroup \
   /opt/homebrew/include/QtWidgets/qapplication.h \
-  /opt/homebrew/include/QtWidgets/qboxlayout.h \
-  /opt/homebrew/include/QtWidgets/qlayout.h \
-  /opt/homebrew/include/QtWidgets/qlayoutitem.h \
-  /opt/homebrew/include/QtWidgets/qgridlayout.h \
   /opt/homebrew/include/QtWidgets/qbuttongroup.h \
   /opt/homebrew/include/QtWidgets/qcalendarwidget.h \
   /opt/homebrew/include/QtWidgets/qcheckbox.h \
@@ -1541,22 +1612,16 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/include/QtWidgets/qgesture.h \
   /opt/homebrew/include/QtWidgets/qgesturerecognizer.h \
   /opt/homebrew/include/QtWidgets/qgraphicsanchorlayout.h \
-  /opt/homebrew/include/QtWidgets/qgraphicsitem.h \
   /opt/homebrew/include/QtWidgets/qgraphicslayout.h \
-  /opt/homebrew/include/QtWidgets/qgraphicslayoutitem.h \
   /opt/homebrew/include/QtWidgets/qgraphicseffect.h \
   /opt/homebrew/include/QtWidgets/qgraphicsgridlayout.h \
   /opt/homebrew/include/QtWidgets/qgraphicsitemanimation.h \
   /opt/homebrew/include/QtWidgets/qgraphicslinearlayout.h \
   /opt/homebrew/include/QtWidgets/qgraphicsproxywidget.h \
-  /opt/homebrew/include/QtWidgets/qgraphicswidget.h \
-  /opt/homebrew/include/QtWidgets/qgraphicsscene.h \
   /opt/homebrew/include/QtWidgets/qgraphicssceneevent.h \
   /opt/homebrew/include/QtWidgets/qgraphicstransform.h \
   /opt/homebrew/include/QtGui/QVector3D \
   /opt/homebrew/include/QtGui/QMatrix4x4 \
-  /opt/homebrew/include/QtWidgets/qgraphicsview.h \
-  /opt/homebrew/include/QtWidgets/qscrollarea.h \
   /opt/homebrew/include/QtWidgets/qgroupbox.h \
   /opt/homebrew/include/QtWidgets/qheaderview.h \
   /opt/homebrew/include/QtWidgets/qinputdialog.h \
@@ -1640,7 +1705,6 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/include/QtOpenGL/qopenglvertexarrayobject.h \
   /opt/homebrew/include/QtOpenGL/qopenglwindow.h \
   /opt/homebrew/include/QtGui/QOpenGLContext \
-  /opt/homebrew/include/QtGui/QImage \
   /opt/homebrew/include/QtOpenGL/qtopenglversion.h \
   /opt/homebrew/include/QtOpenGLWidgets/QtOpenGLWidgets \
   /opt/homebrew/include/QtOpenGLWidgets/QtOpenGLWidgetsDepends \
@@ -1650,25 +1714,12 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/include/QtWidgets/QWidget \
   /opt/homebrew/include/QtOpenGLWidgets/qtopenglwidgetsversion.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qchartglobal.h \
-  /opt/homebrew/include/QtCharts/qtcharts-config.h \
-  /opt/homebrew/include/QtCharts/qtchartsexports.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qabstractaxis.h \
-  /opt/homebrew/include/QtCharts/QChartGlobal \
-  /opt/homebrew/include/QtCharts/qchartglobal.h \
-  /opt/homebrew/include/QtGui/QPen /opt/homebrew/include/QtGui/QFont \
   /opt/homebrew/lib/QtCharts.framework/Headers/qabstractbarseries.h \
-  /opt/homebrew/include/QtCharts/QAbstractSeries \
-  /opt/homebrew/include/QtCharts/qabstractseries.h \
-  /opt/homebrew/include/QtCharts/QAbstractAxis \
-  /opt/homebrew/include/QtCharts/qabstractaxis.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qabstractseries.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qarealegendmarker.h \
   /opt/homebrew/include/QtCharts/QLegendMarker \
   /opt/homebrew/include/QtCharts/qlegendmarker.h \
-  /opt/homebrew/include/QtCharts/QLegend \
-  /opt/homebrew/include/QtCharts/qlegend.h \
-  /opt/homebrew/include/QtWidgets/QGraphicsWidget \
-  /opt/homebrew/include/QtGui/QBrush \
   /opt/homebrew/include/QtCharts/QAreaSeries \
   /opt/homebrew/include/QtCharts/qareaseries.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qareaseries.h \
@@ -1697,14 +1748,8 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/lib/QtCharts.framework/Headers/qcandlestickset.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qcategoryaxis.h \
   /opt/homebrew/include/QtCharts/QValueAxis \
-  /opt/homebrew/include/QtCharts/qvalueaxis.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qchart.h \
-  /opt/homebrew/lib/QtCharts.framework/Headers/qchartview.h \
-  /opt/homebrew/include/QtCharts/QChart \
-  /opt/homebrew/include/QtCharts/qchart.h \
-  /opt/homebrew/include/QtWidgets/QGraphicsView \
   /opt/homebrew/lib/QtCharts.framework/Headers/qcoloraxis.h \
-  /opt/homebrew/lib/QtCharts.framework/Headers/qdatetimeaxis.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qhbarmodelmapper.h \
   /opt/homebrew/include/QtCharts/QBarModelMapper \
   /opt/homebrew/include/QtCharts/qbarmodelmapper.h \
@@ -1727,7 +1772,6 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/lib/QtCharts.framework/Headers/qlegendmarker.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qlineseries.h \
   /opt/homebrew/include/QtCharts/QXYSeries \
-  /opt/homebrew/include/QtCharts/qxyseries.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qlogvalueaxis.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qpercentbarseries.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qpielegendmarker.h \
@@ -1739,12 +1783,10 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/lib/QtCharts.framework/Headers/qpieseries.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qpieslice.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qpolarchart.h \
-  /opt/homebrew/lib/QtCharts.framework/Headers/qscatterseries.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qsplineseries.h \
   /opt/homebrew/include/QtCharts/qlineseries.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qstackedbarseries.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qtchartsversion.h \
-  /opt/homebrew/lib/QtCharts.framework/Headers/qvalueaxis.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qvbarmodelmapper.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qvboxplotmodelmapper.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/qvcandlestickmodelmapper.h \
@@ -1759,14 +1801,8 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QTableWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QVBoxLayout \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QToolTip \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtooltip.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QFile \
-  /opt/homebrew/lib/QtCore.framework/Headers/qfile.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QTextStream \
   /opt/homebrew/lib/QtCore.framework/Headers/qtextstream.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QStringList \
@@ -1779,51 +1815,13 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/lib/QtWidgets.framework/Headers/qfiledialog.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QVector \
   /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/6YEA5652QU/../../../include/pollutant1.h \
+  /Users/young/Desktop/UoL-UI-groupwork/include/pages/pollutant1.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDateEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdatetimeedit.h \
   /opt/homebrew/include/QtCharts/qvbarmodelmapper.h \
-  /opt/homebrew/include/QtCore/qtmochelpers.h \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_fluor_window.cpp \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/fluor_window.hpp \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
-  /opt/homebrew/lib/QtCharts.framework/Headers/QChartView \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QComboBox \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qcombobox.h \
-  /opt/homebrew/lib/QtCharts.framework/Headers/QScatterSeries \
-  /opt/homebrew/lib/QtCharts.framework/Headers/QDateTimeAxis \
-  /opt/homebrew/lib/QtCharts.framework/Headers/QValueAxis \
-  /Users/young/Desktop/UoL-UI-groupwork/include/dataset.hpp \
-  /Users/young/Desktop/UoL-UI-groupwork/include/water_quality.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_home_window.cpp \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/home_window.hpp \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QStackedWidget \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qstackedwidget.h \
-  /Users/young/Desktop/UoL-UI-groupwork/include/pages/overview_window.hpp \
-  /opt/homebrew/lib/QtWebEngineWidgets.framework/Headers/QWebEngineView \
-  /opt/homebrew/lib/QtWebEngineWidgets.framework/Headers/qwebengineview.h \
-  /opt/homebrew/include/QtGui/QPageLayout \
-  /opt/homebrew/include/QtWebEngineWidgets/qtwebenginewidgetsglobal.h \
-  /opt/homebrew/include/QtWebEngineCore/qwebenginepage.h \
-  /opt/homebrew/include/QtWebEngineCore/qtwebenginecoreglobal.h \
-  /opt/homebrew/include/QtWebEngineCore/qtwebenginecore-config.h \
-  /opt/homebrew/include/QtWebEngineCore/qwebengineclientcertificateselection.h \
-  /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
-  /opt/homebrew/include/QtNetwork/qsslcertificate.h \
-  /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
-  /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
-  /opt/homebrew/include/QtNetwork/qssl.h \
-  /opt/homebrew/include/QtCore/QFlags \
-  /opt/homebrew/include/QtWebEngineCore/qwebenginedownloadrequest.h \
-  /opt/homebrew/include/QtWebEngineCore/qwebenginequotarequest.h \
-  /Users/young/Desktop/UoL-UI-groupwork/include/pages/fluor_window.hpp \
-  /Users/young/Desktop/UoL-UI-groupwork/include/mainwindow.h \
+  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_mainwindow.cpp \
   /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_overview_window.cpp \
   /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/overview_window.hpp \
   /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_page1_window.cpp \
@@ -1836,4 +1834,5 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/lib/QtCore.framework/Headers/QString \
   /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_page3_window.cpp \
   /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/page3_window.hpp \
-  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/6YEA5652QU/moc_pollutant1.cpp
+  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_pollutant1.cpp \
+  /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/pollutant1.h

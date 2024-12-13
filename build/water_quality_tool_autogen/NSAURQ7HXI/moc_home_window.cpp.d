@@ -1027,10 +1027,10 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/arm_neon.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Users/young/Desktop/UoL-UI-groupwork/include/dataset.hpp \
-  /Users/young/Desktop/UoL-UI-groupwork/include/mainwindow.h \
   /Users/young/Desktop/UoL-UI-groupwork/include/pages/fluor_window.hpp \
+  /Users/young/Desktop/UoL-UI-groupwork/include/pages/mainwindow.h \
   /Users/young/Desktop/UoL-UI-groupwork/include/pages/overview_window.hpp \
-  /Users/young/Desktop/UoL-UI-groupwork/include/pollutant1.h \
+  /Users/young/Desktop/UoL-UI-groupwork/include/pages/pollutant1.h \
   /Users/young/Desktop/UoL-UI-groupwork/include/water_quality.hpp \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QAbstractAxis \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QAbstractBarSeries \

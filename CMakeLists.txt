@@ -32,10 +32,10 @@ set(RESOURCES resources.qrc)
 # Executable file
 add_executable(
         water_quality_tool
-        src/mainwindow.cpp
-        src/pollutant1.cpp
-        include/mainwindow.h
-        include/pollutant1.h
+        src/pages/mainwindow.cpp
+        src/pages/pollutant1.cpp
+        include/pages/mainwindow.h
+        include/pages/pollutant1.h
         main.cpp
         ${SOURCES}
         ${HEADERS}

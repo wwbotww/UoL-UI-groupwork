@@ -19,7 +19,7 @@
 #include <QDebug>
 #include <QFileDialog>
 #include <QVector>
-#include "pollutant1.h"  // Include the correct header
+#include "pages/pollutant1.h"  // Include the correct header
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

@@ -3,7 +3,7 @@
 #include "pages/page2_window.hpp"
 #include "pages/page1_window.hpp"
 #include "pages/fluor_window.hpp"
-#include "mainwindow.h"
+#include "pages/mainwindow.h"
 #include <QTranslator>
 #include <QLocale>
 #include <QComboBox>
