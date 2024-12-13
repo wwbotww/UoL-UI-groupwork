@@ -6,7 +6,6 @@
 #include <QBarSet>
 #include <QBarSeries>
 #include <QChart>
-#include <QValueAxis>
 #include <QCategoryAxis>
 #include <QVBoxLayout>
 
@@ -72,9 +71,9 @@ void Page1Window::createChart(const std::map<std::string, double> &data) {
         series->append(set);
     }
 
-    QChart *chart = new QChart();
+    chart = new QChart();
     chart->addSeries(series);
-    chart->setTitle("Litter Levels by Location");
+    chart->setTitle(tr("Litter Levels by Location"));
     chart->setAnimationOptions(QChart::SeriesAnimations);
 
     QCategoryAxis *axisX = new QCategoryAxis();
@@ -84,8 +83,8 @@ void Page1Window::createChart(const std::map<std::string, double> &data) {
     chart->addAxis(axisX, Qt::AlignBottom);
     series->attachAxis(axisX);
 
-    QValueAxis *axisY = new QValueAxis();
-    axisY->setTitleText("Litter Level");
+    axisY = new QValueAxis();
+    axisY->setTitleText(tr("Litter Level"));
     chart->addAxis(axisY, Qt::AlignLeft);
     series->attachAxis(axisY);
 
@@ -109,4 +108,9 @@ void Page1Window::updateDashboard() {
 
     createTable(filteredData);
     createChart(filteredData);
+}
+
+void Page1Window::updateTranslations() {
+    chart->setTitle(tr("Litter Levels by Location"));
+    axisY->setTitleText(tr("Litter Level"));
 }

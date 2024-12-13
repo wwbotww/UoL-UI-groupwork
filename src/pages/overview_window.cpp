@@ -29,7 +29,7 @@ OverviewWindow::OverviewWindow(QWidget* parent)
     // Fluor module
     QWidget* fluorWidget = new QWidget(this);
     QVBoxLayout* fluorLayout = new QVBoxLayout(fluorWidget);
-    fluorDataButton = new QPushButton("Show Fluor Data on Map", this);
+    fluorDataButton = new QPushButton(tr("Show Fluor Data on Map"), this);
     fluorLayout->addWidget(fluorDataButton);
     connect(fluorDataButton, &QPushButton::clicked, this, &OverviewWindow::displayFluorDataOnMap);
     gridLayout->addWidget(fluorWidget, 0, 0);
@@ -37,7 +37,7 @@ OverviewWindow::OverviewWindow(QWidget* parent)
     // Page1 module
     QWidget* page1Widget = new QWidget(this);
     QVBoxLayout* page1Layout = new QVBoxLayout(page1Widget);
-    QPushButton* page1Button = new QPushButton("Show Litter Data on Map", this);
+    page1Button = new QPushButton(tr("Show Litter Data on Map"), this);
     page1Layout->addWidget(page1Button);
     connect(page1Button, &QPushButton::clicked, this, &OverviewWindow::displayPage1DataOnMap);
     gridLayout->addWidget(page1Widget, 0, 1);
@@ -45,7 +45,7 @@ OverviewWindow::OverviewWindow(QWidget* parent)
     // Page2 module
     QWidget* page2Widget = new QWidget(this);
     QVBoxLayout* page2Layout = new QVBoxLayout(page2Widget);
-    QPushButton* page2Button = new QPushButton("Show POPs Data on Map", this);
+    page2Button = new QPushButton(tr("Show POPs Data on Map"), this);
     page2Layout->addWidget(page2Button);
     connect(page2Button, &QPushButton::clicked, this, &OverviewWindow::displayPage2DataOnMap);
     gridLayout->addWidget(page2Widget, 1, 0);
@@ -53,7 +53,7 @@ OverviewWindow::OverviewWindow(QWidget* parent)
     // Page3 module
     QWidget* page3Widget = new QWidget(this);
     QVBoxLayout* page3Layout = new QVBoxLayout(page3Widget);
-    QPushButton* page3Button = new QPushButton("Show Page3 Data", this);
+    page3Button = new QPushButton(tr("Show Page3 Data"), this);
     page3Layout->addWidget(page3Button);
     connect(page3Button, &QPushButton::clicked, this, &OverviewWindow::displayPage3DataOnMap);
     gridLayout->addWidget(page3Widget, 1, 1);
@@ -81,4 +81,11 @@ void OverviewWindow::displayPage2DataOnMap() {
 void OverviewWindow::displayPage3DataOnMap() {
     // Load logic for Page3 data (data processing logic to be added)
     mapView->page()->runJavaScript("updateMarkers([])");
+}
+
+void OverviewWindow::updateTranslations() {
+    fluorDataButton->setText(tr("Show Fluor Data on Map"));
+    page1Button->setText(tr("Show Litter Data on Map"));
+    page2Button->setText(tr("Show POPs Data on Map"));
+    page3Button->setText(tr("Show Page3 Data"));
 }

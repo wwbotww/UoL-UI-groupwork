@@ -966,18 +966,21 @@
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QChart
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QChartGlobal
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QChartView
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QDateTimeAxis
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QLegend
- mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QLineSeries
- mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QXYSeries
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QScatterSeries
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QValueAxis
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qabstractaxis.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qabstractseries.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qchart.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qchartglobal.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qchartview.h
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qdatetimeaxis.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qlegend.h
- mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qlineseries.h
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qscatterseries.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qtcharts-config.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qtchartsexports.h
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qvalueaxis.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qxyseries.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QList
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QMargins
@@ -986,6 +989,7 @@
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QRect
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QSize
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QSizeF
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QString
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QVariant
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/q20functional.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/q20memory.h
@@ -6213,6 +6217,7 @@
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtOpenGLWidgets.framework/Versions/A/Headers/qtopenglwidgetsglobal.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtOpenGLWidgets.framework/Versions/A/Headers/qtopenglwidgetsversion.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QCommonStyle
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QDateEdit
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QDialog
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QFileDialog
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView
@@ -7304,6 +7309,7 @@
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcalendar.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qchar.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcompare.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h
@@ -7317,6 +7323,7 @@
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qdatastream.h
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qdatetime.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qdebug.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qendian.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h
@@ -7390,6 +7397,7 @@
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtextstream.h
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtimezone.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtnoop.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h
@@ -7431,6 +7439,7 @@
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtransform.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qvalidator.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QDateEdit
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QDialog
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QHBoxLayout
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QTableWidget
@@ -7441,6 +7450,7 @@
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qabstractspinbox.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qdatetimeedit.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qframe.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h
@@ -8426,6 +8436,7 @@
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QChartGlobal
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QChartView
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QLegend
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QValueAxis
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qabstractaxis.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qabstractseries.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qchart.h
@@ -8434,6 +8445,7 @@
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qlegend.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qtcharts-config.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qtchartsexports.h
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qvalueaxis.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QList
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QMargins
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QObject
@@ -10236,6 +10248,7 @@
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWebEngineWidgets.framework/Versions/A/Headers/qwebengineview.h
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QComboBox
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QCommonStyle
+ mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QDateEdit
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QDialog
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QFileDialog
  mdp:/opt/homebrew/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView

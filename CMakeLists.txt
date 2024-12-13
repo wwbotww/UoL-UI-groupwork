@@ -44,3 +44,13 @@ add_executable(
 
 # Link Qt6 libraries
 target_link_libraries(water_quality_tool PRIVATE Qt6::Widgets Qt6::WebEngineWidgets Qt6::Charts)
+
+# Translation
+set(TRANSLATIONS
+        translations/en_US.ts
+        translations/zh_CN.ts
+        translations/fr_FR.ts
+)
+
+find_package(Qt6 REQUIRED COMPONENTS LinguistTools)
+qt_add_translation(QM_FILES ${TRANSLATIONS})

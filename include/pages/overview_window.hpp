@@ -14,6 +14,7 @@ Q_OBJECT
 
 public:
     explicit OverviewWindow(QWidget* parent = nullptr);
+    void updateTranslations();
 
     ~OverviewWindow() override = default;
 
@@ -36,6 +37,9 @@ private:
     QWebEngineView* mapView; // Map view
     QLabel* fluorDataLabel;
     QPushButton* fluorDataButton;
+    QPushButton* page1Button;
+    QPushButton* page2Button;
+    QPushButton* page3Button;
 
     QString fluorDataPoints; // JavaScript data points for FluorPage
 

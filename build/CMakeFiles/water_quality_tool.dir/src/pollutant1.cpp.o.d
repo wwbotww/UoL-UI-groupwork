@@ -1145,6 +1145,11 @@ CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.o: \
   /opt/homebrew/include/QtWidgets/qboxlayout.h \
   /opt/homebrew/include/QtWidgets/qgridlayout.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QDateEdit \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qdatetimeedit.h \
+  /opt/homebrew/include/QtCore/qtimezone.h \
+  /opt/homebrew/include/QtCore/qdatetime.h \
+  /opt/homebrew/include/QtCore/qcalendar.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
   /opt/homebrew/include/QtGui/qpicture.h \
@@ -1221,10 +1226,8 @@ CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.o: \
   /opt/homebrew/include/QtCore/qbuffer.h \
   /opt/homebrew/include/QtCore/qbytearraymatcher.h \
   /opt/homebrew/include/QtCore/qcache.h \
-  /opt/homebrew/include/QtCore/qcalendar.h \
   /opt/homebrew/include/QtCore/qcborarray.h \
   /opt/homebrew/include/QtCore/qcborvalue.h \
-  /opt/homebrew/include/QtCore/qdatetime.h \
   /opt/homebrew/include/QtCore/qcborcommon.h \
   /opt/homebrew/include/QtCore/quuid.h \
   /opt/homebrew/include/QtCore/qcbormap.h \
@@ -1258,7 +1261,6 @@ CMakeFiles/water_quality_tool.dir/src/pollutant1.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /opt/homebrew/include/QtCore/qfileinfo.h \
-  /opt/homebrew/include/QtCore/qtimezone.h \
   /opt/homebrew/include/QtCore/qdiriterator.h \
   /opt/homebrew/include/QtCore/qeasingcurve.h \
   /opt/homebrew/include/QtCore/qexception.h \

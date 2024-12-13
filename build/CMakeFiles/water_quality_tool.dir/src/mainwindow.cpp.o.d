@@ -1782,6 +1782,8 @@ CMakeFiles/water_quality_tool.dir/src/mainwindow.cpp.o: \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QDateEdit \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qdatetimeedit.h \
   /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/include/ui_mainwindow.h \
   /opt/homebrew/include/QtWidgets/QApplication \
   /opt/homebrew/include/QtWidgets/QMainWindow \

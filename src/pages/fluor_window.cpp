@@ -81,13 +81,13 @@ void FluorWindow::drawChartForStation(const QString& selectedStation) {
     }
 
     // 3. 创建散点系列 (QScatterSeries) 不同颜色的散点系列
-    QScatterSeries* greenSeries = new QScatterSeries();
-    QScatterSeries* yellowSeries = new QScatterSeries();
-    QScatterSeries* redSeries = new QScatterSeries();
+    greenSeries = new QScatterSeries();
+    yellowSeries = new QScatterSeries();
+    redSeries = new QScatterSeries();
 
-    greenSeries->setName("Low (< 0.03 µg/L)");
-    yellowSeries->setName("Medium (0.03 - 0.6 µg/L)");
-    redSeries->setName("High (>= 0.6 µg/L)");
+    greenSeries->setName(tr("Low (< 0.03 µg/L)"));
+    yellowSeries->setName(tr("Medium (0.03 - 0.6 µg/L)"));
+    redSeries->setName(tr("High (>= 0.6 µg/L)"));
 
     greenSeries->setColor(QColor(Qt::green));
     yellowSeries->setColor(QColor(Qt::yellow));
@@ -97,12 +97,12 @@ void FluorWindow::drawChartForStation(const QString& selectedStation) {
     yellowSeries->setMarkerSize(8.0);
     redSeries->setMarkerSize(8.0);
 
-    QDateTimeAxis* xAxis = new QDateTimeAxis();
-    QValueAxis* yAxis = new QValueAxis();
+    xAxis = new QDateTimeAxis();
+    yAxis = new QValueAxis();
 
     xAxis->setFormat("yyyy-MM-dd");
-    xAxis->setTitleText("Sample Date");
-    yAxis->setTitleText("Result (µg/L)");
+    xAxis->setTitleText(tr("Sample Date"));
+    yAxis->setTitleText(tr("Result (µg/L)"));
 
     yAxis->setRange(0, 1); // Y轴范围
 
@@ -139,7 +139,7 @@ void FluorWindow::drawChartForStation(const QString& selectedStation) {
     chart->addSeries(yellowSeries);
     chart->addSeries(redSeries);
 
-    chart->setTitle(QString("Time Series of Fluorinated Compounds (%1)").arg(selectedStation));
+    chart->setTitle(QString(tr("Time Series of Fluorinated Compounds (%1)")).arg(selectedStation));
     chart->setAnimationOptions(QChart::AllAnimations);
 
     chart->addAxis(xAxis, Qt::AlignBottom);
@@ -157,4 +157,12 @@ void FluorWindow::drawChartForStation(const QString& selectedStation) {
 
 void FluorWindow::onStationSelected(const QString& selectedStation) {
     drawChartForStation(selectedStation);
+}
+
+void FluorWindow::updateTranslations() {
+    greenSeries->setName(tr("Low (< 0.03 µg/L)"));
+    yellowSeries->setName(tr("Medium (0.03 - 0.6 µg/L)"));
+    redSeries->setName(tr("High (>= 0.6 µg/L)"));
+    xAxis->setTitleText(tr("Sample Date"));
+    yAxis->setTitleText(tr("Result (µg/L)"));
 }

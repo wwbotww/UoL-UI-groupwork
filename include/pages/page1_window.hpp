@@ -6,6 +6,7 @@
 #include <QVBoxLayout>
 #include <QTableWidget>
 #include <QChartView>
+#include <QValueAxis>
 #include <map>
 #include <string>
 #include <vector>
@@ -24,6 +25,7 @@ public:
     explicit Page1Window(QWidget* parent = nullptr);
     //Destructor
     ~Page1Window();
+    void updateTranslations();
 
 private slots:
     //slot to update the displayed data based on filters
@@ -37,6 +39,9 @@ private:
     QChartView* chartView;
     QComboBox* filterComboBox;
     QPushButton* refreshButton;
+
+    QChart *chart;
+    QValueAxis *axisY;
 
     WaterQualityDataset dataset;
     void loadData();

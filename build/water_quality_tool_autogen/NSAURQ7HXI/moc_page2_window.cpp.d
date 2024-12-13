@@ -962,18 +962,21 @@
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QChart \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QChartGlobal \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QChartView \
+  /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QDateTimeAxis \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QLegend \
-  /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QLineSeries \
-  /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QXYSeries \
+  /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QScatterSeries \
+  /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QValueAxis \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qabstractaxis.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qabstractseries.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qchart.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qchartglobal.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qchartview.h \
+  /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qdatetimeaxis.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qlegend.h \
-  /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qlineseries.h \
+  /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qscatterseries.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qtcharts-config.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qtchartsexports.h \
+  /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qvalueaxis.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qxyseries.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QList \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QMargins \
@@ -982,6 +985,7 @@
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QRect \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QSize \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QSizeF \
+  /opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QString \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QVariant \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/q20memory.h \

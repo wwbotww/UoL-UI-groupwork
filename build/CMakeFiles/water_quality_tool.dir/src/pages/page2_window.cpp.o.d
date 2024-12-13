@@ -1133,13 +1133,12 @@ CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.o: \
   /opt/homebrew/include/QtWidgets/qgridlayout.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QPointF \
   /opt/homebrew/lib/QtCore.framework/Headers/qpoint.h \
-  /opt/homebrew/include/QtCharts/QLineSeries \
-  /opt/homebrew/include/QtCharts/qlineseries.h \
+  /opt/homebrew/include/QtCharts/QScatterSeries \
+  /opt/homebrew/include/QtCharts/qscatterseries.h \
   /opt/homebrew/include/QtCharts/QChartGlobal \
   /opt/homebrew/include/QtCharts/qchartglobal.h \
   /opt/homebrew/include/QtCharts/qtcharts-config.h \
   /opt/homebrew/include/QtCharts/qtchartsexports.h \
-  /opt/homebrew/include/QtCharts/QXYSeries \
   /opt/homebrew/include/QtCharts/qxyseries.h \
   /opt/homebrew/include/QtCharts/QAbstractSeries \
   /opt/homebrew/include/QtCharts/qabstractseries.h \
@@ -1191,6 +1190,12 @@ CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.o: \
   /opt/homebrew/include/QtWidgets/qscrollarea.h \
   /opt/homebrew/include/QtWidgets/qabstractscrollarea.h \
   /opt/homebrew/include/QtWidgets/qgraphicsscene.h \
+  /opt/homebrew/lib/QtCharts.framework/Headers/QValueAxis \
+  /opt/homebrew/lib/QtCharts.framework/Headers/qvalueaxis.h \
+  /opt/homebrew/lib/QtCharts.framework/Headers/QDateTimeAxis \
+  /opt/homebrew/lib/QtCharts.framework/Headers/qdatetimeaxis.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QComboBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qcombobox.h \
   /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h \
@@ -1248,9 +1253,7 @@ CMakeFiles/water_quality_tool.dir/src/pages/page2_window.cpp.o: \
   /opt/homebrew/lib/QtCore.framework/Headers/QDateTime \
   /opt/homebrew/lib/QtCore.framework/Headers/qdatetime.h \
   /opt/homebrew/include/QtCore/qcalendar.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QString \
-  /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \
   /opt/homebrew/include/QtCharts/QValueAxis \
-  /opt/homebrew/include/QtCharts/qvalueaxis.h \
   /opt/homebrew/include/QtCharts/QDateTimeAxis \
-  /opt/homebrew/include/QtCharts/qdatetimeaxis.h
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QToolTip \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qtooltip.h

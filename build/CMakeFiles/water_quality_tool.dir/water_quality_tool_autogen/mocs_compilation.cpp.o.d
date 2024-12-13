@@ -1783,6 +1783,8 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QDateEdit \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qdatetimeedit.h \
   /opt/homebrew/include/QtCharts/qvbarmodelmapper.h \
   /opt/homebrew/include/QtCore/qtmochelpers.h \
   /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_fluor_window.cpp \
@@ -1829,8 +1831,9 @@ CMakeFiles/water_quality_tool.dir/water_quality_tool_autogen/mocs_compilation.cp
   /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_page2_window.cpp \
   /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/page2_window.hpp \
   /opt/homebrew/lib/QtCore.framework/Headers/QPointF \
-  /opt/homebrew/include/QtCharts/QLineSeries \
+  /opt/homebrew/include/QtCharts/QScatterSeries \
   /opt/homebrew/include/QtCharts/QChartView \
+  /opt/homebrew/lib/QtCore.framework/Headers/QString \
   /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/moc_page3_window.cpp \
   /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/NSAURQ7HXI/../../../include/pages/page3_window.hpp \
   /Users/young/Desktop/UoL-UI-groupwork/build/water_quality_tool_autogen/6YEA5652QU/moc_pollutant1.cpp

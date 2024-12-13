@@ -1202,6 +1202,8 @@ CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.o: \
   /opt/homebrew/include/QtGui/qtextoption.h \
   /opt/homebrew/include/QtWidgets/qscrollarea.h \
   /opt/homebrew/include/QtWidgets/qgraphicsscene.h \
+  /opt/homebrew/lib/QtCharts.framework/Headers/QValueAxis \
+  /opt/homebrew/lib/QtCharts.framework/Headers/qvalueaxis.h \
   /Users/young/Desktop/UoL-UI-groupwork/include/dataset.hpp \
   /Users/young/Desktop/UoL-UI-groupwork/include/water_quality.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \
@@ -1245,8 +1247,6 @@ CMakeFiles/water_quality_tool.dir/src/pages/page1_window.cpp.o: \
   /opt/homebrew/include/QtCharts/qabstractbarseries.h \
   /opt/homebrew/include/QtCore/QStringList \
   /opt/homebrew/lib/QtCharts.framework/Headers/QChart \
-  /opt/homebrew/lib/QtCharts.framework/Headers/QValueAxis \
-  /opt/homebrew/lib/QtCharts.framework/Headers/qvalueaxis.h \
   /opt/homebrew/lib/QtCharts.framework/Headers/QCategoryAxis \
   /opt/homebrew/lib/QtCharts.framework/Headers/qcategoryaxis.h \
   /opt/homebrew/include/QtCharts/QValueAxis

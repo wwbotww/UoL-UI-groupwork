@@ -17,6 +17,8 @@ Q_OBJECT
 public:
     explicit HomeWindow(QWidget* parent = nullptr);
     ~HomeWindow();
+    void switchLanguage(const QString& languageCode);
+    void onLanguageSelected(const QString& language);
 
 private slots:
     void showOverviewPage();
@@ -46,6 +48,8 @@ private:
 
     QVBoxLayout* navLayout;
     QHBoxLayout* mainLayout;
+
+    QComboBox* languageSelector;
 };
 
 #endif // HOME_WINDOW_HPP

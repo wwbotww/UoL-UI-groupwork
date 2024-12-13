@@ -5,8 +5,11 @@
 #include <QLabel>
 #include <QVBoxLayout>
 #include <QPointF>
-#include <QtCharts/QLineSeries>
+#include <QtCharts/QScatterSeries>
 #include <QtCharts/QChartView>
+#include <QValueAxis>
+#include <QDateTimeAxis>
+#include <QString>
 #include <QComboBox>
 #include <QStackedWidget>
 #include "dataset.hpp"
@@ -20,17 +23,24 @@ public:
     void loadData();
     // void showToolTip(QPointF point, bool state);
     void createPCBChart(const QString& samplingPoint);
+    void attachAxesToSeries(
+            QAbstractSeries* series,
+            QDateTimeAxis* axisX,
+            QValueAxis* axisY) const;
+    QScatterSeries* createSeries(const QString& name, const QColor& color) const;
 
 private:
     QLabel* pageLabel;
     QVBoxLayout* layout;
     QComboBox* chartSelector;
     QStackedWidget* chartStack;
+    std::vector<WaterQuality> dataPoints;
     std::vector<WaterQuality> filteredData;
     WaterQualityDataset dataset;
 
 private slots:
-    void displaySelectedGraph(int index); // Slot for handling dropdown selection
+    void displaySelectedGraph(int index);
+    void onPointHovered(const QPointF& point, bool state);
 };
 
 #endif // PAGE2_WINDOW_HPP

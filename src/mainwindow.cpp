@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
     QVBoxLayout *mainLayout = new QVBoxLayout(centralWidget);
 
     // Add a title
-    QLabel *title = new QLabel("Pollutant Overview", this);
+    QLabel *title = new QLabel(tr("Pollutant Overview"), this);
     QFont titleFont("Times New Roman", 16, QFont::Bold);
     title->setFont(titleFont);
     title->setAlignment(Qt::AlignCenter);
@@ -23,28 +23,28 @@ MainWindow::MainWindow(QWidget *parent)
     // Create a horizontal layout for the buttons
     QHBoxLayout *buttonLayout = new QHBoxLayout();
 
-    QPushButton *pollutant1Button = new QPushButton("View Details for Endrin", this);
+    QPushButton *pollutant1Button = new QPushButton(tr("View Details for Endrin"), this);
     connect(pollutant1Button, &QPushButton::clicked, this, [=]() {
         pollutant1 *page = new pollutant1("Endrin", tableHeaders, csvData, this);  // Pass headers and data
         page->exec();
     });
     buttonLayout->addWidget(pollutant1Button);
 
-    QPushButton *pollutant2Button = new QPushButton("View Details for 1,1,2-Trichloroethane", this);
+    QPushButton *pollutant2Button = new QPushButton(tr("View Details for 1,1,2-Trichloroethane"), this);
     connect(pollutant2Button, &QPushButton::clicked, this, [=]() {
         pollutant1 *page = new pollutant1("112TCEthan", tableHeaders, csvData, this);  // Pass headers and data
         page->exec();
     });
     buttonLayout->addWidget(pollutant2Button);
 
-    QPushButton *pollutant3Button = new QPushButton("View Details for Chloroform", this);
+    QPushButton *pollutant3Button = new QPushButton(tr("View Details for Chloroform"), this);
     connect(pollutant3Button, &QPushButton::clicked, this, [=]() {
         pollutant1 *page = new pollutant1("Chloroform", tableHeaders, csvData, this);  // Pass headers and data
         page->exec();
     });
     buttonLayout->addWidget(pollutant3Button);
 
-    QPushButton *pollutant4Button = new QPushButton("View Details for BOD ATU", this);
+    QPushButton *pollutant4Button = new QPushButton(tr("View Details for BOD ATU"), this);
     connect(pollutant4Button, &QPushButton::clicked, this, [=]() {
         pollutant1 *page = new pollutant1("BOD ATU", tableHeaders, csvData, this);  // Pass headers and data
         page->exec();
@@ -55,7 +55,7 @@ MainWindow::MainWindow(QWidget *parent)
     mainLayout->addLayout(buttonLayout);
 
     // Create "Load CSV" button
-    QPushButton *loadCSVButton = new QPushButton("Load CSV Data", this);
+    QPushButton *loadCSVButton = new QPushButton(tr("Load CSV Data"), this);
     connect(loadCSVButton, &QPushButton::clicked, this, &MainWindow::loadCSVDialog);
     mainLayout->addWidget(loadCSVButton);
 

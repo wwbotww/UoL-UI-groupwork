@@ -1117,6 +1117,8 @@ CMakeFiles/water_quality_tool.dir/main.cpp.o: \
   /opt/homebrew/include/QtCore/qlocale.h \
   /opt/homebrew/include/QtCore/qvariant.h \
   /opt/homebrew/include/QtGui/qguiapplication_platform.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QTranslator \
+  /opt/homebrew/lib/QtCore.framework/Headers/qtranslator.h \
   /Users/young/Desktop/UoL-UI-groupwork/include/pages/home_window.hpp \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1815,4 +1817,6 @@ CMakeFiles/water_quality_tool.dir/main.cpp.o: \
   /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
   /Users/young/Desktop/UoL-UI-groupwork/include/pollutant1.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QDateEdit \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qdatetimeedit.h

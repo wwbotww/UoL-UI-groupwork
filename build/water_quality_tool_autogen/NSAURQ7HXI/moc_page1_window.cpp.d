@@ -963,6 +963,7 @@
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QChartGlobal \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QChartView \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QLegend \
+  /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QValueAxis \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qabstractaxis.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qabstractseries.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qchart.h \
@@ -971,6 +972,7 @@
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qlegend.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qtcharts-config.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qtchartsexports.h \
+  /opt/homebrew/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qvalueaxis.h \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QList \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QMargins \
   /opt/homebrew/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QObject \

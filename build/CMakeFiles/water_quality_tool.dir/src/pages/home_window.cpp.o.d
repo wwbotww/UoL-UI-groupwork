@@ -1814,8 +1814,15 @@ CMakeFiles/water_quality_tool.dir/src/pages/home_window.cpp.o: \
   /Users/young/Desktop/UoL-UI-groupwork/include/pollutant1.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QDateEdit \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qdatetimeedit.h \
   /Users/young/Desktop/UoL-UI-groupwork/include/pages/page2_window.hpp \
   /opt/homebrew/lib/QtCore.framework/Headers/QPointF \
-  /opt/homebrew/include/QtCharts/QLineSeries \
+  /opt/homebrew/include/QtCharts/QScatterSeries \
   /opt/homebrew/include/QtCharts/QChartView \
-  /Users/young/Desktop/UoL-UI-groupwork/include/pages/page1_window.hpp
+  /opt/homebrew/lib/QtCore.framework/Headers/QString \
+  /Users/young/Desktop/UoL-UI-groupwork/include/pages/page1_window.hpp \
+  /opt/homebrew/lib/QtCore.framework/Headers/QTranslator \
+  /opt/homebrew/lib/QtCore.framework/Headers/qtranslator.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QLocale \
+  /opt/homebrew/lib/QtCore.framework/Headers/qlocale.h

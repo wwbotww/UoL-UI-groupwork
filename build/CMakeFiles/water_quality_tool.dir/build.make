@@ -72,6 +72,7 @@ include CMakeFiles/water_quality_tool.dir/flags.make
 water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/young/Desktop/UoL-UI-groupwork/resources.qrc
 water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/water_quality_tool_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
 water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/young/Desktop/UoL-UI-groupwork/html/map.html
+water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/young/Desktop/UoL-UI-groupwork/translations/zh_CN.qm
 water_quality_tool_autogen/EWIEGA46WW/qrc_resources.cpp: /opt/homebrew/share/qt/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resources.qrc"
 	/Users/young/anaconda3/envs/UItest-env/bin/cmake -E cmake_autorcc /Users/young/Desktop/UoL-UI-groupwork/build/CMakeFiles/water_quality_tool_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json 

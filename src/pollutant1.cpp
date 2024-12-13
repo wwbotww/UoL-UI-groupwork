@@ -8,6 +8,7 @@
 #include <QtCharts>
 #include <QDateTime>
 
+
 pollutant1::pollutant1(const QString &pollutantName, const QStringList &headers,
                        const QList<QStringList> &data, QWidget *parent)
     : QDialog(parent), tableHeaders(headers)
@@ -30,7 +31,7 @@ void pollutant1::setupTable(const QString &pollutantName, const QList<QStringLis
     pollutantTable = new QTableWidget(this);
 
     // Relevant headers
-    QStringList relevantHeaders = {"determinand.label", "sample.sampleDateTime", "result"};
+    QStringList relevantHeaders = {"determinand.label", "sample.sampleDateTime", "result", "determinand.unit.label"};
     QVector<int> relevantColumns;
 
     for (const QString &header : relevantHeaders) {
@@ -47,10 +48,6 @@ void pollutant1::setupTable(const QString &pollutantName, const QList<QStringLis
 
     pollutantTable->setColumnCount(relevantColumns.size());
     pollutantTable->setHorizontalHeaderLabels(relevantHeaders);
-
-    QScatterSeries *scatterSeries = new QScatterSeries();
-    scatterSeries->setMarkerSize(5); // Smaller dots
-    scatterSeries->setName("Pollutant Data");
 
     QLineSeries *lineSeries = new QLineSeries();
     lineSeries->setName("Trend Line");
@@ -114,6 +111,8 @@ void pollutant1::setupTable(const QString &pollutantName, const QList<QStringLis
         return a.first < b.first;
     });
 
+
+    QScatterSeries *scatterSeries = new QScatterSeries();
     // Add points to scatter series and line series
     for (const auto &point : sortedPoints) {
         scatterSeries->append(point.first, point.second);
